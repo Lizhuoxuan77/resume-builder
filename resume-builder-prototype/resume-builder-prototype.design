@@ -1,0 +1,162 @@
+{
+  "data": [
+    {
+      "id": "page-editor-main",
+      "title": "编辑器 - 主界面",
+      "type": "page",
+      "version": 1,
+      "createdAt": 1786723200000,
+      "canvasData": {
+        "x": 620,
+        "y": 0,
+        "group": 0,
+        "layoutSnapshot": {
+          "version": 1,
+          "contentHeight": 900,
+          "viewportWidth": 1440,
+          "sourceHash": "fnv1a-8c238bbb",
+          "measuredAt": 1786723162410
+        }
+      },
+      "devMetadata": {
+        "htmlSrc": "pages/editor-main.html",
+        "interactions": [
+          {
+            "domId": "btn-export",
+            "targetPageId": "page-editor-export",
+            "transitionLabel": "打开导出面板"
+          },
+          {
+            "domId": "btn-template",
+            "targetPageId": "page-editor-template",
+            "transitionLabel": "打开模板切换"
+          }
+        ]
+      }
+    },
+    {
+      "id": "page-editor-empty",
+      "title": "编辑器 - 空状态",
+      "type": "page",
+      "version": 1,
+      "createdAt": 1786723200000,
+      "canvasData": {
+        "x": 0,
+        "y": 0,
+        "group": 0,
+        "layoutSnapshot": {
+          "version": 1,
+          "contentHeight": 900,
+          "viewportWidth": 1440,
+          "sourceHash": "fnv1a-e0440ffc",
+          "measuredAt": 1786723162410
+        }
+      },
+      "devMetadata": {
+        "htmlSrc": "pages/editor-empty.html",
+        "interactions": [
+          {
+            "domId": "btn-start",
+            "targetPageId": "page-editor-main",
+            "transitionLabel": "开始填写"
+          }
+        ]
+      }
+    },
+    {
+      "id": "page-editor-export",
+      "title": "编辑器 - 导出面板",
+      "type": "page",
+      "version": 1,
+      "createdAt": 1786723200000,
+      "canvasData": {
+        "x": 1240,
+        "y": 0,
+        "group": 0,
+        "layoutSnapshot": {
+          "version": 1,
+          "contentHeight": 900,
+          "viewportWidth": 1440,
+          "sourceHash": "fnv1a-0267609d",
+          "measuredAt": 1786723162410
+        }
+      },
+      "devMetadata": {
+        "htmlSrc": "pages/editor-export.html",
+        "interactions": [
+          {
+            "domId": "btn-close-export",
+            "targetPageId": "page-editor-main",
+            "hideEdge": true,
+            "transitionLabel": "关闭导出面板"
+          }
+        ]
+      }
+    },
+    {
+      "id": "page-editor-template",
+      "title": "编辑器 - 模板切换",
+      "type": "page",
+      "version": 1,
+      "createdAt": 1786723200000,
+      "canvasData": {
+        "x": 1240,
+        "y": 377,
+        "group": 0,
+        "layoutSnapshot": {
+          "version": 1,
+          "contentHeight": 900,
+          "viewportWidth": 1440,
+          "sourceHash": "fnv1a-5c3ca09f",
+          "measuredAt": 1786723162410
+        }
+      },
+      "devMetadata": {
+        "htmlSrc": "pages/editor-template.html",
+        "interactions": [
+          {
+            "domId": "btn-close-template",
+            "targetPageId": "page-editor-main",
+            "hideEdge": true,
+            "transitionLabel": "关闭模板切换"
+          }
+        ]
+      }
+    },
+    {
+      "id": "page-editor-validation",
+      "title": "编辑器 - 字段校验",
+      "type": "page",
+      "version": 1,
+      "createdAt": 1786723200000,
+      "canvasData": {
+        "x": 0,
+        "y": 754,
+        "group": 0,
+        "layoutSnapshot": {
+          "version": 1,
+          "contentHeight": 900,
+          "viewportWidth": 1440,
+          "sourceHash": "fnv1a-057f7a01",
+          "measuredAt": 1786723162410
+        }
+      },
+      "devMetadata": {
+        "htmlSrc": "pages/editor-validation.html",
+        "interactions": [
+          {
+            "domId": "btn-fixed",
+            "targetPageId": "page-editor-main",
+            "hideEdge": true,
+            "transitionLabel": "校验修复完成"
+          }
+        ]
+      }
+    }
+  ],
+  "config": {
+    "autoLayout": true,
+    "deviceType": "desktop",
+    "projectName": "简历编写器原型"
+  }
+}
