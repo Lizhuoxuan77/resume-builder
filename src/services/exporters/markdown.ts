@@ -1,1 +1,114 @@
-LyoqCiAqIE1hcmtkb3duIOWvvOWHugogKiDnuq/mlofmnKzvvJrkv53or4Hlj6/or7vjgIHlj6/otLTliLDku7vkvZXmlK/mjIEgTWFya2Rvd24g55qE5Zyw5pa5CiAqIOauteiQvemhuuW6j+S4juagh+mimOmBteW+qiBSZXN1bWVEYXRhLnNlY3Rpb25zCiAqIOepuuauteiQveiHquWKqOi3s+i/hwogKi8KCmltcG9ydCB0eXBlIHsgUmVzdW1lRGF0YSwgU2VjdGlvbkNvbmZpZywgQ3VzdG9tU2VjdGlvbiB9IGZyb20gJ0AvdHlwZXMvcmVzdW1lJzsKaW1wb3J0IHsgaXNTZWN0aW9uRW1wdHkgfSBmcm9tICdAL3R5cGVzL3Jlc3VtZSc7CmltcG9ydCB7IHNvcnRlZFNlY3Rpb25zIH0gZnJvbSAnQC9tb2RlbHMvUmVzdW1lRGF0YSc7CgpmdW5jdGlvbiBzZWN0aW9uKHRpdGxlOiBzdHJpbmcpOiBzdHJpbmcgewogIHJldHVybiBgXG4jIyAke3RpdGxlfVxuXG5gOwp9CgpmdW5jdGlvbiBsaW5lcyh0ZXh0OiBzdHJpbmcpOiBzdHJpbmcgewogIHJldHVybiB0ZXh0CiAgICAuc3BsaXQoJ1xuJykKICAgIC5tYXAoKGwpID0+IGwudHJpbSgpKQogICAgLmZpbHRlcihCb29sZWFuKQogICAgLm1hcCgobCkgPT4gYC0gJHtsfWApCiAgICAuam9pbignXG4nKTsKfQoKZnVuY3Rpb24gcmVuZGVyU2VjdGlvbihzZWM6IFNlY3Rpb25Db25maWcsIGQ6IFJlc3VtZURhdGEpOiBzdHJpbmcgfCBudWxsIHsKICBpZiAoIXNlYy5lbmFibGVkKSByZXR1cm4gbnVsbDsKICBpZiAoaXNTZWN0aW9uRW1wdHkoc2VjLCBkKSkgcmV0dXJuIG51bGw7CiAgc3dpdGNoIChzZWMua2luZCkgewogICAgY2FzZSAnZWR1Y2F0aW9uJzogewogICAgICBjb25zdCBvdXQ6IHN0cmluZ1tdID0gW3NlY3Rpb24oc2VjLnRpdGxlKV07CiAgICAgIGQuZWR1Y2F0aW9uLmZvckVhY2goKGUpID0+IHsKICAgICAgICBpZiAoIWUuc2Nob29sICYmICFlLmRlZ3JlZSAmJiAhZS5yYW5nZSkgcmV0dXJuOwogICAgICAgIG91dC5wdXNoKGAqKiR7ZS5zY2hvb2wgfHwgJyd9KiogJHtlLnJhbmdlID8gYMK3ICR7ZS5yYW5nZX1gIDogJyd9ICBgKTsKICAgICAgICBpZiAoZS5kZWdyZWUpIG91dC5wdXNoKGAke2UuZGVncmVlfWApOwogICAgICB9KTsKICAgICAgcmV0dXJuIG91dC5qb2luKCdcbicpOwogICAgfQogICAgY2FzZSAnZXhwZXJpZW5jZSc6IHsKICAgICAgY29uc3Qgb3V0OiBzdHJpbmdbXSA9IFtzZWN0aW9uKHNlYy50aXRsZSldOwogICAgICBkLmV4cGVyaWVuY2UuZm9yRWFjaCgoZSkgPT4gewogICAgICAgIGlmICghZS5jb21wYW55ICYmICFlLnJvbGUgJiYgIWUuZGVzYykgcmV0dXJuOwogICAgICAgIG91dC5wdXNoKGAjIyMgJHtlLnJvbGUgfHwgJyd9IMK3ICR7ZS5jb21wYW55IHx8ICcnfSAgYCk7CiAgICAgICAgaWYgKGUucmFuZ2UpIG91dC5wdXNoKGAqJHtlLnJhbmdlfSpgKTsKICAgICAgICBpZiAoZS5kZXNjKSBvdXQucHVzaChsaW5lcyhlLmRlc2MpKTsKICAgICAgfSk7CiAgICAgIHJldHVybiBvdXQuam9pbignXG4nKTsKICAgIH0KICAgIGNhc2UgJ3Byb2plY3RzJzogewogICAgICBjb25zdCBvdXQ6IHN0cmluZ1tdID0gW3NlY3Rpb24oc2VjLnRpdGxlKV07CiAgICAgIGQucHJvamVjdHMuZm9yRWFjaCgocCkgPT4gewogICAgICAgIGlmICghcC5uYW1lICYmICFwLnRlY2ggJiYgIXAuZGVzYykgcmV0dXJuOwogICAgICAgIG91dC5wdXNoKGAjIyMgJHtwLm5hbWUgfHwgJyd9ICBgKTsKICAgICAgICBpZiAocC50ZWNoKSBvdXQucHVzaChgKiR7cC50ZWNofSpgKTsKICAgICAgICBpZiAocC5kZXNjKSBvdXQucHVzaChsaW5lcyhwLmRlc2MpKTsKICAgICAgfSk7CiAgICAgIHJldHVybiBvdXQuam9pbignXG4nKTsKICAgIH0KICAgIGNhc2UgJ3NraWxscyc6IHsKICAgICAgY29uc3QgbGlzdCA9IGQuc2tpbGxzLnNwbGl0KC9bLO+8jF0vKS5tYXAoKHMpID0+IHMudHJpbSgpKS5maWx0ZXIoQm9vbGVhbik7CiAgICAgIHJldHVybiBzZWN0aW9uKHNlYy50aXRsZSkgKyBsaXN0Lm1hcCgocykgPT4gYC0gJHtzfWApLmpvaW4oJ1xuJyk7CiAgICB9CiAgICBjYXNlICdhd2FyZHMnOiB7CiAgICAgIHJldHVybiBzZWN0aW9uKHNlYy50aXRsZSkgKyBsaW5lcyhkLmF3YXJkcyk7CiAgICB9CiAgICBjYXNlICdhYm91dCc6IHsKICAgICAgcmV0dXJuIHNlY3Rpb24oc2VjLnRpdGxlKSArIGQuYWJvdXQudHJpbSgpOwogICAgfQogICAgY2FzZSAnY3VzdG9tJzogewogICAgICBjb25zdCBjczogQ3VzdG9tU2VjdGlvbiB8IHVuZGVmaW5lZCA9IGQuY3VzdG9tU2VjdGlvbnMuZmluZCgoYykgPT4gYy5pZCA9PT0gc2VjLmRhdGFJZCk7CiAgICAgIGlmICghY3MpIHJldHVybiBudWxsOwogICAgICBpZiAoY3Muc2hhcGUgPT09ICdsaXN0JykgewogICAgICAgIGNvbnN0IGl0ZW1zID0gY3MuaXRlbXMuZmlsdGVyKChpdCkgPT4gaXQudGl0bGUudHJpbSgpIHx8IGl0LmRlc2MudHJpbSgpKTsKICAgICAgICBpZiAoaXRlbXMubGVuZ3RoID09PSAwKSByZXR1cm4gbnVsbDsKICAgICAgICBjb25zdCBvdXQ6IHN0cmluZ1tdID0gW3NlY3Rpb24oc2VjLnRpdGxlKV07CiAgICAgICAgaXRlbXMuZm9yRWFjaCgoaXQpID0+IHsKICAgICAgICAgIG91dC5wdXNoKGAjIyMgJHtpdC50aXRsZSB8fCAnJ31gKTsKICAgICAgICAgIGlmIChpdC5kZXNjKSBvdXQucHVzaChsaW5lcyhpdC5kZXNjKSk7CiAgICAgICAgfSk7CiAgICAgICAgcmV0dXJuIG91dC5qb2luKCdcbicpOwogICAgICB9CiAgICAgIGNvbnN0IGNvbnRlbnQgPSAoY3MuY29udGVudCA/PyAnJykudHJpbSgpOwogICAgICBpZiAoIWNvbnRlbnQpIHJldHVybiBudWxsOwogICAgICByZXR1cm4gc2VjdGlvbihzZWMudGl0bGUpICsgbGluZXMoY29udGVudCk7CiAgICB9CiAgfQp9CgpleHBvcnQgZnVuY3Rpb24gcmVuZGVyTWFya2Rvd24oZDogUmVzdW1lRGF0YSk6IHN0cmluZyB7CiAgY29uc3Qgb3V0OiBzdHJpbmdbXSA9IFtdOwoKICAvLyDlpLTpg6gKICBvdXQucHVzaChgIyAke2QubmFtZSB8fCAn5pyq5ZG95ZCNJ31gKTsKICBpZiAoZC50aXRsZSkgb3V0LnB1c2goYCoke2QudGl0bGV9KmApOwogIGNvbnN0IGNvbnRhY3Q6IHN0cmluZ1tdID0gW107CiAgaWYgKGQuZW1haWwpIGNvbnRhY3QucHVzaChg8J+TpyAke2QuZW1haWx9YCk7CiAgaWYgKGQucGhvbmUpIGNvbnRhY3QucHVzaChg8J+TsSAke2QucGhvbmV9YCk7CiAgaWYgKGQubG9jYXRpb24pIGNvbnRhY3QucHVzaChg8J+TjSAke2QubG9jYXRpb259YCk7CiAgaWYgKGQud2Vic2l0ZSkgY29udGFjdC5wdXNoKGDwn5SXICR7ZC53ZWJzaXRlfWApOwogIGlmIChjb250YWN0Lmxlbmd0aCkgb3V0LnB1c2goY29udGFjdC5qb2luKCcgIFxuJykpOwoKICBzb3J0ZWRTZWN0aW9ucyhkKS5mb3JFYWNoKChzZWMpID0+IHsKICAgIGNvbnN0IGJsb2NrID0gcmVuZGVyU2VjdGlvbihzZWMsIGQpOwogICAgaWYgKGJsb2NrKSBvdXQucHVzaChibG9jayk7CiAgfSk7CgogIHJldHVybiBvdXQuam9pbignXG4nKS5yZXBsYWNlKC9cbnszLH0vZywgJ1xuXG4nKS50cmltKCkgKyAnXG4nOwp9Cg==
+/**
+ * Markdown 导出
+ * 纯文本：保证可读、可贴到任何支持 Markdown 的地方
+ * 段落顺序与标题遵循 ResumeData.sections
+ * 空段落自动跳过
+ */
+
+import type { ResumeData, SectionConfig, CustomSection } from '@/types/resume';
+import { isSectionEmpty } from '@/types/resume';
+import { sortedSections } from '@/models/ResumeData';
+
+function section(title: string): string {
+  return `\n## ${title}\n\n`;
+}
+
+function lines(text: string): string {
+  return text
+    .split('\n')
+    .map((l) => l.trim())
+    .filter(Boolean)
+    .map((l) => `- ${l}`)
+    .join('\n');
+}
+
+function renderSection(sec: SectionConfig, d: ResumeData): string | null {
+  if (!sec.enabled) return null;
+  if (isSectionEmpty(sec, d)) return null;
+  switch (sec.kind) {
+    case 'education': {
+      const out: string[] = [section(sec.title)];
+      d.education.forEach((e) => {
+        if (!e.school && !e.degree && !e.range) return;
+        out.push(`**${e.school || ''}** ${e.range ? `· ${e.range}` : ''}  `);
+        if (e.degree) out.push(`${e.degree}`);
+      });
+      return out.join('\n');
+    }
+    case 'experience': {
+      const out: string[] = [section(sec.title)];
+      d.experience.forEach((e) => {
+        if (!e.company && !e.role && !e.desc) return;
+        out.push(`### ${e.role || ''} · ${e.company || ''}  `);
+        if (e.range) out.push(`*${e.range}*`);
+        if (e.desc) out.push(lines(e.desc));
+      });
+      return out.join('\n');
+    }
+    case 'projects': {
+      const out: string[] = [section(sec.title)];
+      d.projects.forEach((p) => {
+        if (!p.name && !p.tech && !p.desc) return;
+        out.push(`### ${p.name || ''}  `);
+        if (p.tech) out.push(`*${p.tech}*`);
+        if (p.desc) out.push(lines(p.desc));
+      });
+      return out.join('\n');
+    }
+    case 'skills': {
+      const list = d.skills.split(/[,，]/).map((s) => s.trim()).filter(Boolean);
+      return section(sec.title) + list.map((s) => `- ${s}`).join('\n');
+    }
+    case 'awards': {
+      return section(sec.title) + lines(d.awards);
+    }
+    case 'about': {
+      return section(sec.title) + d.about.trim();
+    }
+    case 'custom': {
+      const cs: CustomSection | undefined = d.customSections.find((c) => c.id === sec.dataId);
+      if (!cs) return null;
+      if (cs.shape === 'list') {
+        const items = cs.items.filter((it) => it.title.trim() || it.desc.trim());
+        if (items.length === 0) return null;
+        const out: string[] = [section(sec.title)];
+        items.forEach((it) => {
+          out.push(`### ${it.title || ''}`);
+          if (it.desc) out.push(lines(it.desc));
+        });
+        return out.join('\n');
+      }
+      const content = (cs.content ?? '').trim();
+      if (!content) return null;
+      return section(sec.title) + lines(content);
+    }
+  }
+}
+
+export function renderMarkdown(d: ResumeData): string {
+  const out: string[] = [];
+
+  // 头部
+  out.push(`# ${d.name || '未命名'}`);
+  if (d.title) out.push(`*${d.title}*`);
+  const contact: string[] = [];
+  if (d.email) contact.push(`📧 ${d.email}`);
+  if (d.phone) contact.push(`📱 ${d.phone}`);
+  if (d.location) contact.push(`📍 ${d.location}`);
+  if (d.website) contact.push(`🔗 ${d.website}`);
+  // 自定义基础信息：用户自由添加的字段
+  d.customBasics.forEach((b) => {
+    const label = (b.label || '').trim();
+    const value = (b.value || '').trim();
+    if (!value) return;
+    contact.push(label ? `${label}：${value}` : value);
+  });
+  if (contact.length) out.push(contact.join('  \n'));
+
+  sortedSections(d).forEach((sec) => {
+    const block = renderSection(sec, d);
+    if (block) out.push(block);
+  });
+
+  return out.join('\n').replace(/\n{3,}/g, '\n\n').trim() + '\n';
+}
