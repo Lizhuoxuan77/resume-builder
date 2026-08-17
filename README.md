@@ -1,1 +1,113 @@
-IyDnroDljobnvJbovpHlmaggKFJlc3VtZSBCdWlsZGVyKQoK57qv5YmN56uv566A5Y6G57yW5YaZ5Zmo77ya5aGr5YaZIOKGkiDlrp7ml7bpooTop4gg4oaSIOWkmuagvOW8j+WvvOWHuu+8jOaUr+aMgSBXaW5kb3dzIOahjOmdouW6lOeUqOS4gOmUruWuieijheOAggoKIVtTdGF0dXNdKGh0dHBzOi8vaW1nLnNoaWVsZHMuaW8vYmFkZ2Uvc3RhdHVzLXN0YWJsZS1icmlnaHRncmVlbikKIVtQbGF0Zm9ybV0oaHR0cHM6Ly9pbWcuc2hpZWxkcy5pby9iYWRnZS9wbGF0Zm9ybS1XaW5kb3dzJTIwMTAlMkYxMS1ibHVlKQohW0VsZWN0cm9uXShodHRwczovL2ltZy5zaGllbGRzLmlvL2JhZGdlL2VsZWN0cm9uLTMxLngtOWZlYWY5KQoKIyMg4pyoIOWKn+iDveeJueaApwoKLSAqKuihqOWNleWhq+WGmSoq77ya5Liq5Lq65L+h5oGv44CB5pWZ6IKy6IOM5pmv44CB5a6e5LmgL+W3peS9nOe7j+WOhuOAgemhueebrue7j+mqjOOAgeaKgOacr+eJuemVv+OAgeWllumhueOAgeiHquaIkeivhOS7twotICoq5a6e5pe26aKE6KeIKirvvJrlt6blj7PliIbmoI/vvIzmiYDop4HljbPmiYDlvpcKLSAqKjMg5aWX5qih5p2/KirvvJrnu4/lhbggLyDkvqfovrnmoI8gLyDmnoHnroDvvIzliIfmjaLpm7blu7bov58KLSAqKuWkmuagvOW8j+WvvOWHuioq77yaUERGIC8gRE9DWCAvIE1hcmtkb3duIC8gUE5HCi0gKirnroDljobop6PmnpDlr7zlhaUqKu+8mueymOi0tOaWh+acrOaIluS4iuS8oCBET0NY77yM6Ieq5Yqo5o+Q5Y+W5a2X5q61Ci0gKipKU09OIOWkh+S7vSoq77ya5pys5Zyw5a2Y5qGj44CB6Leo6K6+5aSH5oGi5aSNCi0gKirlv6vmjbfplK4qKu+8mmBDdHJsK1NgIOS/neWtmO+8jGBDdHJsK0VgIOWvvOWHuu+8jGBDdHJsKzEvMi8zYCDliIfmqKHmnb8KLSAqKuWTjeW6lOW8j+W4g+WxgCoq77ya5qGM6Z2i5a695bGP6Ieq5Yqo5YiG5qCP77yM56qE5bGP5oqY5Y+g5Li65Y2V5YiXCi0gKirmoYzpnaLlupTnlKgqKu+8mkVsZWN0cm9uIOaJk+WMhSArIE5TSVMg5a6J6KOF5Zmo77yM5LiA6ZSu5a6J6KOFCgojIyDwn5qAIOW/q+mAn+W8gOWniwoKIyMjIFdlYiDmqKHlvI/vvIjlvIDlj5HvvIkKCmBgYGJhc2gKbnBtIGluc3RhbGwKbnBtIHJ1biBkZXYgICAgICAgICAgIyDlkIzml7blkK/liqggVml0ZSAoNTE3MykgKyBFbGVjdHJvbgpgYGAKCuiuv+mXriBgaHR0cDovL2xvY2FsaG9zdDo1MTczYOOAggoKIyMjIOS7hSBXZWIg56uv77yI57qv5YmN56uv6aKE6KeI77yJCgpgYGBiYXNoCm5wbSBydW4gZGV2OndlYgpgYGAKCiMjIyDku4UgRWxlY3Ryb24g56qX5Y+j77yI5bey5pyJIGRldiBzZXJ2ZXLvvIkKCmBgYGJhc2gKbnBtIHJ1biBkZXY6ZWxlY3Ryb24KYGBgCgojIyDwn5OmIOaJk+WMheWPkeW4gwoKYGBgYmFzaApucG0gcnVuIHBhY2thZ2UgICAgICAjIOS4gOmUrueUn+aIkCBOU0lTIOWuieijheWMhQpgYGAKCuS6p+eJqe+8mmByZWxlYXNlLWJ1aWxkL+eugOWOhue8lui+keWZqCBTZXR1cCAwLjEuMC5leGVgCgrnlKjmiLfmi7/liLAgZXhlIOWQjuWPjOWHu+Wuieijhe+8jOm7mOiupOi3r+W+hCBgJUxPQ0FMQVBQREFUQSVcUHJvZ3JhbXNccmVzdW1lLWJ1aWxkZXJcYO+8jOiHquWKqOWIm+W7uuahjOmdoi/lvIDlp4voj5zljZXlv6vmjbfmlrnlvI/jgIIKCj4gV2luZG93cyDkuIrpppbmrKHmiZPljIXlj6/og73pgYfliLAgYHdpbkNvZGVTaWduYCDop6PljovnrKblj7fpk77mjqXmnYPpmZDpl67popjvvIzku5PlupPlt7LpgJrov4cgYHNjcmlwdHMvN3phLXdyYXBwZXIuZXhlYO+8iDZLQiBDIyDnqIvluo/vvInoh6rliqjms6jlhaUgYC1zbmwtYCDlj4LmlbDop6PlhrPvvIxgcG9zdGluc3RhbGxgIOmSqeWtkOiHquWKqOmDqOe9suOAggoKIyMg8J+Pl++4jyDmnrbmnoQKCumBteW+qiAqKlNPTElEIOWOn+WImSoq77yM6auY5YaF6IGa5L2O6ICm5ZCI77yaCgpgYGAKc3JjLwrilJzilIDilIAgY29yZS8gICAgICAgICAgICMg6YWN572u44CB5LqL5Lu25oC757q/44CB5a2Y5YKoCuKUnOKUgOKUgCBtb2RlbHMvICAgICAgICAgIyDnroDljobmlbDmja7mqKHlnosgKyDmoKHpqowK4pSc4pSA4pSAIHNlcnZpY2VzLyAgICAgICAjIOWvvOWHui/lr7zlhaUv5a2Y5YKoL+aooeadvy/moKHpqozmnI3liqEK4pSCICAg4pSc4pSA4pSAIGV4cG9ydGVycy8gICMgUERGIC8gRE9DWCAvIE1hcmtkb3duCuKUgiAgIOKUlOKUgOKUgCBpbXBvcnRlcnMvICAjIERPQ1gg6Kej5p6QICsg5ZCv5Y+R5byP5paH5pys6Kej5p6QCuKUnOKUgOKUgCB2aWV3cy8gICAgICAgICAgIyDop4blm77lsYLvvIjnvJbovpHlmagv6aKE6KeIL+WvvOWHuuWvueivneahhuetie+8iQrilJzilIDilIAgY29udHJvbGxlcnMvICAgICMg5o6n5Yi25Zmo77yI57yW5o6S6KeG5Zu+5LiO5pyN5Yqh77yJCuKUnOKUgOKUgCB0ZW1wbGF0ZXMvICAgICAgIyAzIOWll+eugOWOhuaooeadvwrilJzilIDilIAgc3R5bGVzLyAgICAgICAgICMg6K6+6K6hIHRva2VucyArIOe7hOS7tuagt+W8jwrilJzilIDilIAgdHlwZXMvICAgICAgICAgICMgVFMg57G75Z6LCuKUlOKUgOKUgCB1dGlscy8gICAgICAgICAgIyDlt6Xlhbflh73mlbAKCmVsZWN0cm9uLyAgICAgICAgICAgIyBFbGVjdHJvbiDkuLvov5vnqIsgLyDpooTliqDovb0Kc2NyaXB0cy8gICAgICAgICAgICAjIOaJk+WMheiEmuacrApwdWJsaWMvICAgICAgICAgICAgICMg6Z2Z5oCB6LWE5rqQCmBgYAoKIyMjIOWFs+mUruiuvuiuoQoKLSAqKkRJUCoq77ya6KeG5Zu+6YCa6L+HIGBFdmVudEJ1c2Ag5LiO5pyN5Yqh6YCa5L+h77yM5LiN55u05o6l5L6d6LWW5YW35L2T5a6e546wCi0gKipTUlAqKu+8muavj+S4quacjeWKoeWPqui0n+i0o+S4gOexu+iDveWKm++8iOWvvOWFpSAvIOWvvOWHuiAvIOagoemqjCAvIOaooeadv++8iQotICoqT0NQKirvvJrmlrDlop7mqKHmnb/lj6rpnIDms6jlhozliLAgYFRlbXBsYXRlUmVnaXN0cnlgCi0gKipJU1AqKu+8muacjeWKoeaOpeWPo+aMiemcgOaatOmcsu+8iOWmgiBgRXhwb3J0ZXJgIC8gYEltcG9ydGVyYCDmjqXlj6PliIbnprvvvIkKCiMjIPCfp6og5oqA5pyv5qCICgotICoqVHlwZVNjcmlwdCA1LjQqKiArICoqVml0ZSA1KirvvJrnjrDku6PliY3nq6/mnoTlu7oKLSAqKuWOn+eUnyBFUyBNb2R1bGVzKirvvJrml6DmiZPljIXplIHvvIzov5DooYzpm7bpop3lpJbov5DooYzml7YKLSAqKmRvY3ggLyBodG1sMmNhbnZhcyAvIG1hbW1vdGgqKu+8muWkmuagvOW8j+S6kui9rAotICoqRWxlY3Ryb24gMzEgKyBlbGVjdHJvbi1idWlsZGVyIDI0KirvvJrmoYzpnaLlupTnlKjkuI4gTlNJUyDlronoo4XljIUKCiMjIOKMqO+4jyDlv6vmjbfplK4KCnwg5pON5L2cICAgICAgICAgfCDlv6vmjbfplK4gICAgICAgfAp8IC0tLS0tLS0tLS0tLSB8IC0tLS0tLS0tLS0tLSB8Cnwg5L+d5a2YICAgICAgICAgfCBgQ3RybCtTYCAgICAgfAp8IOWvvOWHuiAgICAgICAgIHwgYEN0cmwrRWAgICAgIHwKfCDliIfmqKHmnb8gMS8yLzMgfCBgQ3RybCsxLzIvM2AgfAp8IOiHquWKqOS/neWtmCAgICAgfCDlrp7ml7YgICAgICAgICB8CgojIyDwn5OEIOWvvOWHuuagvOW8jwoKfCDmoLzlvI8gICAgIHwg55So6YCUICAgICAgICAgICAgICAgfAp8IC0tLS0tLS0tIHwgLS0tLS0tLS0tLS0tLS0tLS0tIHwKfCBQREYgICAgICB8IOaxguiBjOaKlemAkuOAgeaJk+WNsCAgICAgfAp8IERPQ1ggICAgIHwg5LqM5qyh57yW6L6R44CBQVRTIOino+aekCB8CnwgTWFya2Rvd24gfCBHaXRIdWLjgIHmioDmnK/ljZrlrqIgICB8CnwgUE5HICAgICAgfCDnpL7kuqTliIbkuqvjgIHlhoXltYzpgq7ku7YgfAoKIyMg8J+TnSBMaWNlbnNlCgpNSVQgwqkgMjAyNiBsaXp4Cg==
+# 简历编辑器 (Resume Builder)
+
+纯前端简历编写器：填写 → 实时预览 → 多格式导出，支持 Windows 桌面应用一键安装。
+
+![Status](https://img.shields.io/badge/status-stable-brightgreen)
+![Platform](https://img.shields.io/badge/platform-Windows%2010%2F11-blue)
+![Electron](https://img.shields.io/badge/electron-31.x-9feaf9)
+
+## ✨ 功能特性
+
+- **表单填写**：个人信息、教育背景、实习/工作经历、项目经验、技术特长、奖项、自我评价
+- **实时预览**：左右分栏，所见即所得
+- **3 套模板**：经典 / 侧边栏 / 极简，切换零延迟
+- **多格式导出**：PDF / DOCX / Markdown / PNG
+- **简历解析导入**：粘贴文本或上传 DOCX，自动提取字段
+- **JSON 备份**：本地存档、跨设备恢复
+- **快捷键**：`Ctrl+S` 保存，`Ctrl+E` 导出，`Ctrl+1/2/3` 切模板
+- **响应式布局**：桌面宽屏自动分栏，窄屏折叠为单列
+- **桌面应用**：Electron 打包 + NSIS 安装器，一键安装
+
+## 🚀 快速开始
+
+### Web 模式（开发）
+
+```bash
+npm install
+npm run dev          # 同时启动 Vite (5173) + Electron
+```
+
+访问 `http://localhost:5173`。
+
+### 仅 Web 端（纯前端预览）
+
+```bash
+npm run dev:web
+```
+
+### 仅 Electron 窗口（已有 dev server）
+
+```bash
+npm run dev:electron
+```
+
+## 📦 打包发布
+
+```bash
+npm run package      # 一键生成 NSIS 安装包
+```
+
+产物：`release-build/简历编辑器 Setup 0.1.0.exe`
+
+用户拿到 exe 后双击安装，默认路径 `%LOCALAPPDATA%\Programs\resume-builder\`，自动创建桌面/开始菜单快捷方式。
+
+> Windows 上首次打包可能遇到 `winCodeSign` 解压符号链接权限问题，仓库已通过 `scripts/7za-wrapper.exe`（6KB C# 程序）自动注入 `-snl-` 参数解决，`postinstall` 钩子自动部署。
+
+## 🏗️ 架构
+
+遵循 **SOLID 原则**，高内聚低耦合：
+
+```
+src/
+├── core/           # 配置、事件总线、存储
+├── models/         # 简历数据模型 + 校验
+├── services/       # 导出/导入/存储/模板/校验服务
+│   ├── exporters/  # PDF / DOCX / Markdown
+│   └── importers/  # DOCX 解析 + 启发式文本解析
+├── views/          # 视图层（编辑器/预览/导出对话框等）
+├── controllers/    # 控制器（编排视图与服务）
+├── templates/      # 3 套简历模板
+├── styles/         # 设计 tokens + 组件样式
+├── types/          # TS 类型
+└── utils/          # 工具函数
+
+electron/           # Electron 主进程 / 预加载
+scripts/            # 打包脚本
+public/             # 静态资源
+```
+
+### 关键设计
+
+- **DIP**：视图通过 `EventBus` 与服务通信，不直接依赖具体实现
+- **SRP**：每个服务只负责一类能力（导入 / 导出 / 校验 / 模板）
+- **OCP**：新增模板只需注册到 `TemplateRegistry`
+- **ISP**：服务接口按需暴露（如 `Exporter` / `Importer` 接口分离）
+
+## 🧪 技术栈
+
+- **TypeScript 5.4** + **Vite 5**：现代前端构建
+- **原生 ES Modules**：无打包锁，运行零额外运行时
+- **docx / html2canvas / mammoth**：多格式互转
+- **Electron 31 + electron-builder 24**：桌面应用与 NSIS 安装包
+
+## ⌨️ 快捷键
+
+| 操作         | 快捷键       |
+| ------------ | ------------ |
+| 保存         | `Ctrl+S`     |
+| 导出         | `Ctrl+E`     |
+| 切模板 1/2/3 | `Ctrl+1/2/3` |
+| 自动保存     | 实时         |
+
+## 📄 导出格式
+
+| 格式     | 用途               |
+| -------- | ------------------ |
+| PDF      | 求职投递、打印     |
+| DOCX     | 二次编辑、ATS 解析 |
+| Markdown | GitHub、技术博客   |
+| PNG      | 社交分享、内嵌邮件 |
+
+## 📝 License
+
+MIT © 2026 lizx
