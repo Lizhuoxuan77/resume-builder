@@ -1,1 +1,340 @@
-LyoqCiAqIOeugOWOhuaVsOaNruW3peWOguS4juS4jeWPr+WPmOabtOaWsOW3peWFtwogKiDljZXkuIDogYzotKPvvJrmnoTpgKAv5YWL6ZqGL+i3r+W+hOW8j+abtOaWsO+8jOS4jeaEn+efpSBVSQogKi8KCmltcG9ydCB0eXBlIHsKICBSZXN1bWVEYXRhLAogIEVkdWNhdGlvbkl0ZW0sCiAgRXhwZXJpZW5jZUl0ZW0sCiAgUHJvamVjdEl0ZW0sCiAgRGF0YVBhdGgsCiAgQXJyYXlGaWVsZFBhdGgsCiAgU2VjdGlvbkNvbmZpZywKICBTZWN0aW9uS2luZCwKICBDdXN0b21TZWN0aW9uLAogIEN1c3RvbUl0ZW0sCiAgQ3VzdG9tU2hhcGUKfSBmcm9tICdAL3R5cGVzL3Jlc3VtZSc7CmltcG9ydCB7IERFRkFVTFRfU0VDVElPTl9USVRMRSB9IGZyb20gJ0AvdHlwZXMvcmVzdW1lJzsKCi8qKiDlvZPliY0gc2NoZW1hIOeJiOacrOWPtyAqLwpleHBvcnQgY29uc3QgU0NIRU1BX1ZFUlNJT04gPSAzOwoKLyoqIOWIm+W7uuepuueZveeugOWOhiAqLwpleHBvcnQgZnVuY3Rpb24gY3JlYXRlRW1wdHlSZXN1bWUoKTogUmVzdW1lRGF0YSB7CiAgcmV0dXJuIHsKICAgIG5hbWU6ICcnLAogICAgdGl0bGU6ICcnLAogICAgZW1haWw6ICcnLAogICAgcGhvbmU6ICcnLAogICAgbG9jYXRpb246ICcnLAogICAgd2Vic2l0ZTogJycsCiAgICBlZHVjYXRpb246IFt7IHNjaG9vbDogJycsIGRlZ3JlZTogJycsIHJhbmdlOiAnJyB9XSwKICAgIGV4cGVyaWVuY2U6IFt7IGNvbXBhbnk6ICcnLCByb2xlOiAnJywgcmFuZ2U6ICcnLCBkZXNjOiAnJyB9XSwKICAgIHByb2plY3RzOiBbeyBuYW1lOiAnJywgdGVjaDogJycsIGRlc2M6ICcnIH1dLAogICAgc2tpbGxzOiAnJywKICAgIGF3YXJkczogJycsCiAgICBhYm91dDogJycsCiAgICBjdXN0b21TZWN0aW9uczogW10sCiAgICBzZWN0aW9uczogY3JlYXRlRGVmYXVsdFNlY3Rpb25zKCksCiAgICB0ZW1wbGF0ZTogJ21pbmltYWwnLAogICAgbWV0YTogeyB1cGRhdGVkQXQ6IG5ldyBEYXRlKCkudG9JU09TdHJpbmcoKSwgdmVyc2lvbjogU0NIRU1BX1ZFUlNJT04gfQogIH07Cn0KCi8qKiDpu5jorqTmrrXokL3phY3nva7vvIjmjInnlKjmiLfmnIDluLjop4HnmoTpobrluo/vvIkgKi8KZXhwb3J0IGZ1bmN0aW9uIGNyZWF0ZURlZmF1bHRTZWN0aW9ucygpOiBTZWN0aW9uQ29uZmlnW10gewogIGNvbnN0IG9yZGVyOiBFeGNsdWRlPFNlY3Rpb25LaW5kLCAnY3VzdG9tJz5bXSA9IFsnZWR1Y2F0aW9uJywgJ2V4cGVyaWVuY2UnLCAncHJvamVjdHMnLCAnc2tpbGxzJywgJ2F3YXJkcycsICdhYm91dCddOwogIHJldHVybiBvcmRlci5tYXAoKGtpbmQsIGkpID0+ICh7CiAgICBpZDogYHNlY18ke2tpbmR9YCwKICAgIGtpbmQsCiAgICB0aXRsZTogREVGQVVMVF9TRUNUSU9OX1RJVExFW2tpbmRdLAogICAgZW5hYmxlZDogdHJ1ZSwKICAgIG9yZGVyOiBpCiAgfSkpOwp9CgovKiog5rex5bqm5YWL6ZqG77yI57uT5p6E5YyW5pWw5o2u6Laz5aSf5rWF77yMSlNPTiDot6/nur/lronlhajvvIkgKi8KZXhwb3J0IGZ1bmN0aW9uIGNsb25lUmVzdW1lKGRhdGE6IFJlc3VtZURhdGEpOiBSZXN1bWVEYXRhIHsKICByZXR1cm4gSlNPTi5wYXJzZShKU09OLnN0cmluZ2lmeShkYXRhKSkgYXMgUmVzdW1lRGF0YTsKfQoKLyoqIOinpuaRuOWFg+S/oeaBr++8mui/lOWbnuW4puaWsCB1cGRhdGVkQXQg55qE5Ymv5pys77yI5LiN5L+u5pS55YWl5Y+C77yJICovCmV4cG9ydCBmdW5jdGlvbiB0b3VjaE1ldGEoZGF0YTogUmVzdW1lRGF0YSk6IFJlc3VtZURhdGEgewogIHJldHVybiB7IC4uLmRhdGEsIG1ldGE6IHsgLi4uZGF0YS5tZXRhLCB1cGRhdGVkQXQ6IG5ldyBEYXRlKCkudG9JU09TdHJpbmcoKSB9IH07Cn0KCi8qKgogKiDnroDljZXlrZfmrrUgc2V077ya6L+U5Zue5paw5a+56LGhCiAqIOaOpeWPlyBEYXRhUGF0aO+8iOWQqyB0ZW1wbGF0Ze+8ie+8jOiuqSBVSSDlgY/lpb3kuZ/og73lpI3nlKjnu5/kuIDkuI3lj6/lj5jmm7TmlrAKICovCmV4cG9ydCBmdW5jdGlvbiBzZXRGaWVsZDxLIGV4dGVuZHMgRGF0YVBhdGg+KAogIGRhdGE6IFJlc3VtZURhdGEsCiAgcGF0aDogSywKICB2YWx1ZTogUmVzdW1lRGF0YVtLXQopOiBSZXN1bWVEYXRhIHsKICByZXR1cm4gdG91Y2hNZXRhKHsgLi4uZGF0YSwgW3BhdGhdOiB2YWx1ZSB9KTsKfQoKLyoqIOaVsOe7hOadoeebruWtl+autSBzZXTvvJrov5Tlm57mlrDlr7nosaHvvIjkuI3lj6/lj5jvvIkgKi8KZXhwb3J0IGZ1bmN0aW9uIHNldEFycmF5SXRlbUZpZWxkKAogIGRhdGE6IFJlc3VtZURhdGEsCiAgcGF0aDogQXJyYXlGaWVsZFBhdGgsCiAgaW5kZXg6IG51bWJlciwKICBrZXk6IHN0cmluZywKICB2YWx1ZTogc3RyaW5nCik6IFJlc3VtZURhdGEgewogIGNvbnN0IGxpc3QgPSBkYXRhW3BhdGhdIGFzIHVua25vd24gYXMgQXJyYXk8UmVjb3JkPHN0cmluZywgc3RyaW5nPj47CiAgaWYgKGluZGV4IDwgMCB8fCBpbmRleCA+PSBsaXN0Lmxlbmd0aCkgcmV0dXJuIGRhdGE7CiAgY29uc3QgbmV4dCA9IGxpc3QubWFwKChpdGVtLCBpKSA9PiAoaSA9PT0gaW5kZXggPyB7IC4uLml0ZW0sIFtrZXldOiB2YWx1ZSB9IDogaXRlbSkpOwogIHJldHVybiB0b3VjaE1ldGEoeyAuLi5kYXRhLCBbcGF0aF06IG5leHQgfSkgYXMgdW5rbm93biBhcyBSZXN1bWVEYXRhOwp9CgovKiog5pWw57uE5paw5aKe5p2h55uuICovCmV4cG9ydCBmdW5jdGlvbiBhZGRBcnJheUl0ZW08SyBleHRlbmRzIEFycmF5RmllbGRQYXRoPigKICBkYXRhOiBSZXN1bWVEYXRhLAogIHBhdGg6IEssCiAgZmFjdG9yeTogKCkgPT4gUmVzdW1lRGF0YVtLXVtudW1iZXJdCik6IFJlc3VtZURhdGEgewogIGNvbnN0IGxpc3QgPSBkYXRhW3BhdGhdIGFzIEFycmF5PHVua25vd24+OwogIGNvbnN0IG5leHQgPSBbLi4ubGlzdCwgZmFjdG9yeSgpXTsKICByZXR1cm4gdG91Y2hNZXRhKHsgLi4uZGF0YSwgW3BhdGhdOiBuZXh0IH0pIGFzIFJlc3VtZURhdGE7Cn0KCi8qKiDmlbDnu4TliKDpmaTmnaHnm67vvIhpbmRleCDotornlYzml7bpnZnpu5ggbm8tb3DvvIkgKi8KZXhwb3J0IGZ1bmN0aW9uIHJlbW92ZUFycmF5SXRlbTxLIGV4dGVuZHMgQXJyYXlGaWVsZFBhdGg+KAogIGRhdGE6IFJlc3VtZURhdGEsCiAgcGF0aDogSywKICBpbmRleDogbnVtYmVyCik6IFJlc3VtZURhdGEgewogIGNvbnN0IGxpc3QgPSBkYXRhW3BhdGhdIGFzIEFycmF5PHVua25vd24+OwogIGlmIChpbmRleCA8IDAgfHwgaW5kZXggPj0gbGlzdC5sZW5ndGgpIHJldHVybiBkYXRhOwogIGNvbnN0IG5leHQgPSBsaXN0LmZpbHRlcigoXywgaSkgPT4gaSAhPT0gaW5kZXgpOwogIHJldHVybiB0b3VjaE1ldGEoeyAuLi5kYXRhLCBbcGF0aF06IG5leHQgfSkgYXMgUmVzdW1lRGF0YTsKfQoKLyoqIOW3peWOguWHveaVsO+8muaehOmAoOWQhOexu+epuuadoeebriAqLwpleHBvcnQgY29uc3QgSXRlbUZhY3RvcmllcyA9IHsKICBlZHVjYXRpb246ICgpOiBFZHVjYXRpb25JdGVtID0+ICh7IHNjaG9vbDogJycsIGRlZ3JlZTogJycsIHJhbmdlOiAnJyB9KSwKICBleHBlcmllbmNlOiAoKTogRXhwZXJpZW5jZUl0ZW0gPT4gKHsgY29tcGFueTogJycsIHJvbGU6ICcnLCByYW5nZTogJycsIGRlc2M6ICcnIH0pLAogIHByb2plY3RzOiAoKTogUHJvamVjdEl0ZW0gPT4gKHsgbmFtZTogJycsIHRlY2g6ICcnLCBkZXNjOiAnJyB9KQp9IGFzIGNvbnN0OwoKLyogLS0tLS0tLS0tLS0tLS0tLSBTZWN0aW9uIOaTjeS9nCAtLS0tLS0tLS0tLS0tLS0tICovCgovKiog6YCa55SoIGlkIOeUn+aIkCAqLwpmdW5jdGlvbiBnZW5JZChwcmVmaXg6IHN0cmluZyk6IHN0cmluZyB7CiAgcmV0dXJuIGAke3ByZWZpeH1fJHtEYXRlLm5vdygpLnRvU3RyaW5nKDM2KX1fJHtNYXRoLnJhbmRvbSgpLnRvU3RyaW5nKDM2KS5zbGljZSgyLCA4KX1gOwp9CgovKiog6Ieq5a6a5LmJ5q616JC95p2h55uu55qE56m65a+56LGhICovCmZ1bmN0aW9uIGdlbkN1c3RvbUl0ZW0oKTogQ3VzdG9tSXRlbSB7CiAgcmV0dXJuIHsgaWQ6IGdlbklkKCdpdG0nKSwgdGl0bGU6ICcnLCBkZXNjOiAnJyB9Owp9CgovKiog6YeN5ZG95ZCN5q616JC9ICovCmV4cG9ydCBmdW5jdGlvbiByZW5hbWVTZWN0aW9uKGRhdGE6IFJlc3VtZURhdGEsIHNlY3Rpb25JZDogc3RyaW5nLCB0aXRsZTogc3RyaW5nKTogUmVzdW1lRGF0YSB7CiAgY29uc3Qgc2VjdGlvbnMgPSBkYXRhLnNlY3Rpb25zLm1hcCgocykgPT4gKHMuaWQgPT09IHNlY3Rpb25JZCA/IHsgLi4ucywgdGl0bGUgfSA6IHMpKTsKICByZXR1cm4gdG91Y2hNZXRhKHsgLi4uZGF0YSwgc2VjdGlvbnMgfSk7Cn0KCi8qKiDliIfmjaLmrrXokL3lj6/op4HmgKcgKi8KZXhwb3J0IGZ1bmN0aW9uIHRvZ2dsZVNlY3Rpb24oZGF0YTogUmVzdW1lRGF0YSwgc2VjdGlvbklkOiBzdHJpbmcsIGVuYWJsZWQ/OiBib29sZWFuKTogUmVzdW1lRGF0YSB7CiAgY29uc3Qgc2VjdGlvbnMgPSBkYXRhLnNlY3Rpb25zLm1hcCgocykgPT4KICAgIHMuaWQgPT09IHNlY3Rpb25JZCA/IHsgLi4ucywgZW5hYmxlZDogZW5hYmxlZCA/PyAhcy5lbmFibGVkIH0gOiBzCiAgKTsKICByZXR1cm4gdG91Y2hNZXRhKHsgLi4uZGF0YSwgc2VjdGlvbnMgfSk7Cn0KCi8qKiDmrrXokL3kuIrnp7sgLyDkuIvnp7vvvIjkuqTmjaIgb3JkZXLvvIkgKi8KZXhwb3J0IGZ1bmN0aW9uIG1vdmVTZWN0aW9uKGRhdGE6IFJlc3VtZURhdGEsIHNlY3Rpb25JZDogc3RyaW5nLCBkaXI6ICd1cCcgfCAnZG93bicpOiBSZXN1bWVEYXRhIHsKICBjb25zdCBzb3J0ZWQgPSBbLi4uZGF0YS5zZWN0aW9uc10uc29ydCgoYSwgYikgPT4gYS5vcmRlciAtIGIub3JkZXIpOwogIGNvbnN0IGlkeCA9IHNvcnRlZC5maW5kSW5kZXgoKHMpID0+IHMuaWQgPT09IHNlY3Rpb25JZCk7CiAgaWYgKGlkeCA8IDApIHJldHVybiBkYXRhOwogIGNvbnN0IHN3YXAgPSBkaXIgPT09ICd1cCcgPyBpZHggLSAxIDogaWR4ICsgMTsKICBpZiAoc3dhcCA8IDAgfHwgc3dhcCA+PSBzb3J0ZWQubGVuZ3RoKSByZXR1cm4gZGF0YTsKICBjb25zdCBhID0gc29ydGVkW2lkeF0hOwogIGNvbnN0IGIgPSBzb3J0ZWRbc3dhcF0hOwogIGNvbnN0IGFPcmRlciA9IGEub3JkZXI7CiAgY29uc3QgcmVvcmRlcmVkID0gc29ydGVkLm1hcCgocykgPT4gewogICAgaWYgKHMuaWQgPT09IGEuaWQpIHJldHVybiB7IC4uLnMsIG9yZGVyOiBiLm9yZGVyIH07CiAgICBpZiAocy5pZCA9PT0gYi5pZCkgcmV0dXJuIHsgLi4ucywgb3JkZXI6IGFPcmRlciB9OwogICAgcmV0dXJuIHM7CiAgfSk7CiAgcmV0dXJuIHRvdWNoTWV0YSh7IC4uLmRhdGEsIHNlY3Rpb25zOiByZW9yZGVyZWQgfSk7Cn0KCi8qKgogKiDmrrXokL3mi5bmi73liLDmjIflrprkvY3nva7vvJrlsIYgc2VjdGlvbklkIOenu+WKqOWIsOebruaghyBpZHgg5LmL5YmNCiAqIC0g6YeN5paw5YiG6YWNIG9yZGVy77yM5L2/5YiX6KGo5Zyo5oyJIG9yZGVyIOaOkuW6j+WQju+8jHNlY3Rpb25JZCDlh7rnjrDlnKggaWR4IOWkhAogKi8KZXhwb3J0IGZ1bmN0aW9uIG1vdmVTZWN0aW9uVG8oZGF0YTogUmVzdW1lRGF0YSwgc2VjdGlvbklkOiBzdHJpbmcsIHRhcmdldElkeDogbnVtYmVyKTogUmVzdW1lRGF0YSB7CiAgY29uc3Qgc29ydGVkID0gWy4uLmRhdGEuc2VjdGlvbnNdLnNvcnQoKGEsIGIpID0+IGEub3JkZXIgLSBiLm9yZGVyKTsKICBjb25zdCBmcm9tSWR4ID0gc29ydGVkLmZpbmRJbmRleCgocykgPT4gcy5pZCA9PT0gc2VjdGlvbklkKTsKICBpZiAoZnJvbUlkeCA8IDApIHJldHVybiBkYXRhOwogIGxldCB0b0lkeCA9IHRhcmdldElkeDsKICBpZiAodG9JZHggPCAwKSB0b0lkeCA9IDA7CiAgaWYgKHRvSWR4ID4gc29ydGVkLmxlbmd0aCAtIDEpIHRvSWR4ID0gc29ydGVkLmxlbmd0aCAtIDE7CiAgaWYgKGZyb21JZHggPT09IHRvSWR4KSByZXR1cm4gZGF0YTsKICAvLyDmir3lh7rlkI7mj5LlhaUKICBjb25zdCBbbW92ZWRdID0gc29ydGVkLnNwbGljZShmcm9tSWR4LCAxKTsKICBzb3J0ZWQuc3BsaWNlKHRvSWR4LCAwLCBtb3ZlZCEpOwogIC8vIOmHjeaWsOWIhumFjSBvcmRlcgogIGNvbnN0IHJlb3JkZXJlZCA9IHNvcnRlZC5tYXAoKHMsIGkpID0+ICh7IC4uLnMsIG9yZGVyOiBpIH0pKTsKICByZXR1cm4gdG91Y2hNZXRhKHsgLi4uZGF0YSwgc2VjdGlvbnM6IHJlb3JkZXJlZCB9KTsKfQoKLyoqIOWIoOmZpOiHquWumuS5ieauteiQve+8iOWQjOaXtuenu+mZpOaVsOaNruWSjOmFjee9ru+8ie+8m+WGhee9ruauteiQveeUqCB0b2dnbGVTZWN0aW9uKGZhbHNlKSDmm7/ku6MgKi8KZXhwb3J0IGZ1bmN0aW9uIHJlbW92ZVNlY3Rpb24oZGF0YTogUmVzdW1lRGF0YSwgc2VjdGlvbklkOiBzdHJpbmcpOiBSZXN1bWVEYXRhIHsKICBjb25zdCBzZWMgPSBkYXRhLnNlY3Rpb25zLmZpbmQoKHMpID0+IHMuaWQgPT09IHNlY3Rpb25JZCk7CiAgaWYgKCFzZWMgfHwgc2VjLmtpbmQgIT09ICdjdXN0b20nKSByZXR1cm4gZGF0YTsKICBjb25zdCBzZWN0aW9ucyA9IGRhdGEuc2VjdGlvbnMuZmlsdGVyKChzKSA9PiBzLmlkICE9PSBzZWN0aW9uSWQpOwogIGNvbnN0IGN1c3RvbVNlY3Rpb25zID0gZGF0YS5jdXN0b21TZWN0aW9ucy5maWx0ZXIoKGMpID0+IGMuaWQgIT09IHNlYy5kYXRhSWQpOwogIHJldHVybiB0b3VjaE1ldGEoeyAuLi5kYXRhLCBzZWN0aW9ucywgY3VzdG9tU2VjdGlvbnMgfSk7Cn0KCi8qKgogKiDmlrDlop7oh6rlrprkuYnmrrXokL3vvIjmlK/mjIHmjIflrprlvaLmgIHjgIHmoIfpopjjgIHliJ3lp4vmnaHnm67vvIkKICog55So5rOV77yaCiAqICAgYWRkQ3VzdG9tU2VjdGlvbihkYXRhKSAgICAgICAgICAgICAgICAgICAgICAgLy8g6buY6K6kIHRleHQg5b2i5oCB77yM5qCH6aKYIuiHquWumuS5ieauteiQvSIKICogICBhZGRDdXN0b21TZWN0aW9uKGRhdGEsIHsgdGl0bGUsIHNoYXBlIH0pICAgICAvLyDoh6rlrprkuYnmoIfpopgv5b2i5oCBCiAqICAgYWRkQ3VzdG9tU2VjdGlvbihkYXRhLCB7IHByZXNldDogJ3B1YmxpY2F0aW9ucycgfSkgIC8vIOeUqOmihOiuvuS4gOmUrua3u+WKoAogKi8KZXhwb3J0IGludGVyZmFjZSBBZGRTZWN0aW9uSW5wdXQgewogIHRpdGxlPzogc3RyaW5nOwogIHNoYXBlPzogQ3VzdG9tU2hhcGU7CiAgLyoqIOWIneWni+adoeebru+8iGxpc3Qg5b2i5oCB5LiT55So77yJICovCiAgaW5pdGlhbEl0ZW1zPzogbnVtYmVyOwp9CgpleHBvcnQgZnVuY3Rpb24gYWRkQ3VzdG9tU2VjdGlvbigKICBkYXRhOiBSZXN1bWVEYXRhLAogIGlucHV0OiBBZGRTZWN0aW9uSW5wdXQgfCBzdHJpbmcgPSB7fQopOiBSZXN1bWVEYXRhIHsKICBjb25zdCBvcHRzOiBBZGRTZWN0aW9uSW5wdXQgPSB0eXBlb2YgaW5wdXQgPT09ICdzdHJpbmcnID8geyB0aXRsZTogaW5wdXQgfSA6IGlucHV0OwogIGNvbnN0IGlkID0gZ2VuSWQoJ2N1cycpOwogIGNvbnN0IG1heE9yZGVyID0gZGF0YS5zZWN0aW9ucy5yZWR1Y2UoKG0sIHMpID0+IE1hdGgubWF4KG0sIHMub3JkZXIpLCAtMSk7CiAgY29uc3Qgc2hhcGU6IEN1c3RvbVNoYXBlID0gb3B0cy5zaGFwZSA/PyAndGV4dCc7CiAgY29uc3QgbmV3U2VjdGlvbjogU2VjdGlvbkNvbmZpZyA9IHsKICAgIGlkLAogICAga2luZDogJ2N1c3RvbScsCiAgICB0aXRsZTogb3B0cy50aXRsZSA/PyAn6Ieq5a6a5LmJ5q616JC9JywKICAgIGVuYWJsZWQ6IHRydWUsCiAgICBvcmRlcjogbWF4T3JkZXIgKyAxLAogICAgZGF0YUlkOiBpZCwKICAgIHNoYXBlCiAgfTsKICBjb25zdCBpbml0aWFsOiBDdXN0b21JdGVtW10gPSBbXTsKICBjb25zdCBjb3VudCA9IE1hdGgubWF4KDAsIG9wdHMuaW5pdGlhbEl0ZW1zID8/IChzaGFwZSA9PT0gJ2xpc3QnID8gMSA6IDApKTsKICBmb3IgKGxldCBpID0gMDsgaSA8IGNvdW50OyBpICs9IDEpIHsKICAgIGluaXRpYWwucHVzaChnZW5DdXN0b21JdGVtKCkpOwogIH0KICBjb25zdCBuZXdEYXRhOiBDdXN0b21TZWN0aW9uID0geyBpZCwgc2hhcGUsIGNvbnRlbnQ6ICcnLCBpdGVtczogaW5pdGlhbCB9OwogIHJldHVybiB0b3VjaE1ldGEoewogICAgLi4uZGF0YSwKICAgIHNlY3Rpb25zOiBbLi4uZGF0YS5zZWN0aW9ucywgbmV3U2VjdGlvbl0sCiAgICBjdXN0b21TZWN0aW9uczogWy4uLmRhdGEuY3VzdG9tU2VjdGlvbnMsIG5ld0RhdGFdCiAgfSk7Cn0KCi8qKiDorr7nva7oh6rlrprkuYnmrrXokL3lhoXlrrnvvIh0ZXh0IOW9ouaAge+8iSAqLwpleHBvcnQgZnVuY3Rpb24gc2V0Q3VzdG9tU2VjdGlvbkNvbnRlbnQoCiAgZGF0YTogUmVzdW1lRGF0YSwKICBkYXRhSWQ6IHN0cmluZywKICBjb250ZW50OiBzdHJpbmcKKTogUmVzdW1lRGF0YSB7CiAgY29uc3QgY3VzdG9tU2VjdGlvbnMgPSBkYXRhLmN1c3RvbVNlY3Rpb25zLm1hcCgoYykgPT4gKGMuaWQgPT09IGRhdGFJZCA/IHsgLi4uYywgY29udGVudCB9IDogYykpOwogIHJldHVybiB0b3VjaE1ldGEoeyAuLi5kYXRhLCBjdXN0b21TZWN0aW9ucyB9KTsKfQoKLyoqIOWcqOiHquWumuS5ieauteiQve+8iGxpc3Qg5b2i5oCB77yJ5Lit5paw5aKe5LiA5Liq5p2h55uuICovCmV4cG9ydCBmdW5jdGlvbiBhZGRDdXN0b21JdGVtKGRhdGE6IFJlc3VtZURhdGEsIGRhdGFJZDogc3RyaW5nKTogUmVzdW1lRGF0YSB7CiAgY29uc3QgY3VzdG9tU2VjdGlvbnMgPSBkYXRhLmN1c3RvbVNlY3Rpb25zLm1hcCgoYykgPT4KICAgIGMuaWQgPT09IGRhdGFJZCA/IHsgLi4uYywgaXRlbXM6IFsuLi5jLml0ZW1zLCBnZW5DdXN0b21JdGVtKCldIH0gOiBjCiAgKTsKICByZXR1cm4gdG91Y2hNZXRhKHsgLi4uZGF0YSwgY3VzdG9tU2VjdGlvbnMgfSk7Cn0KCi8qKiDorr7nva7oh6rlrprkuYnmrrXokL3mnaHnm67nmoTlrZfmrrUgKi8KZXhwb3J0IGZ1bmN0aW9uIHNldEN1c3RvbUl0ZW1GaWVsZCgKICBkYXRhOiBSZXN1bWVEYXRhLAogIGRhdGFJZDogc3RyaW5nLAogIGl0ZW1JZDogc3RyaW5nLAogIGtleTogJ3RpdGxlJyB8ICdkZXNjJywKICB2YWx1ZTogc3RyaW5nCik6IFJlc3VtZURhdGEgewogIGNvbnN0IGN1c3RvbVNlY3Rpb25zID0gZGF0YS5jdXN0b21TZWN0aW9ucy5tYXAoKGMpID0+IHsKICAgIGlmIChjLmlkICE9PSBkYXRhSWQpIHJldHVybiBjOwogICAgcmV0dXJuIHsKICAgICAgLi4uYywKICAgICAgaXRlbXM6IGMuaXRlbXMubWFwKChpdCkgPT4gKGl0LmlkID09PSBpdGVtSWQgPyB7IC4uLml0LCBba2V5XTogdmFsdWUgfSA6IGl0KSkKICAgIH07CiAgfSk7CiAgcmV0dXJuIHRvdWNoTWV0YSh7IC4uLmRhdGEsIGN1c3RvbVNlY3Rpb25zIH0pOwp9CgovKiog5Yig6Zmk6Ieq5a6a5LmJ5q616JC955qE5LiA5Liq5p2h55uuICovCmV4cG9ydCBmdW5jdGlvbiByZW1vdmVDdXN0b21JdGVtKGRhdGE6IFJlc3VtZURhdGEsIGRhdGFJZDogc3RyaW5nLCBpdGVtSWQ6IHN0cmluZyk6IFJlc3VtZURhdGEgewogIGNvbnN0IGN1c3RvbVNlY3Rpb25zID0gZGF0YS5jdXN0b21TZWN0aW9ucy5tYXAoKGMpID0+IHsKICAgIGlmIChjLmlkICE9PSBkYXRhSWQpIHJldHVybiBjOwogICAgY29uc3QgbmV4dCA9IGMuaXRlbXMuZmlsdGVyKChpdCkgPT4gaXQuaWQgIT09IGl0ZW1JZCk7CiAgICAvLyDoh7PlsJHkv53nlZnkuIDkuKrnqbrmnaHnm67vvIzpgb/lhY3nlKjmiLfml6Dms5Xnu6fnu63mt7vliqAKICAgIGlmIChuZXh0Lmxlbmd0aCA9PT0gMCkgbmV4dC5wdXNoKGdlbkN1c3RvbUl0ZW0oKSk7CiAgICByZXR1cm4geyAuLi5jLCBpdGVtczogbmV4dCB9OwogIH0pOwogIHJldHVybiB0b3VjaE1ldGEoeyAuLi5kYXRhLCBjdXN0b21TZWN0aW9ucyB9KTsKfQoKLyoqIOiOt+WPluaMiSBvcmRlciDmjpLluo/lkI7nmoTmrrXokL3phY3nva4gKi8KZXhwb3J0IGZ1bmN0aW9uIHNvcnRlZFNlY3Rpb25zKGRhdGE6IFJlc3VtZURhdGEpOiBTZWN0aW9uQ29uZmlnW10gewogIHJldHVybiBbLi4uZGF0YS5zZWN0aW9uc10uc29ydCgoYSwgYikgPT4gYS5vcmRlciAtIGIub3JkZXIpOwp9Cg==
+/**
+ * 简历数据工厂与不可变更新工具
+ * 单一职责：构造/克隆/路径式更新，不感知 UI
+ */
+
+import type {
+  ResumeData,
+  EducationItem,
+  ExperienceItem,
+  ProjectItem,
+  DataPath,
+  ArrayFieldPath,
+  SectionConfig,
+  SectionKind,
+  CustomSection,
+  CustomItem,
+  CustomShape,
+  BasicField
+} from '@/types/resume';
+import { DEFAULT_SECTION_TITLE } from '@/types/resume';
+
+/** 当前 schema 版本号 */
+export const SCHEMA_VERSION = 4;
+
+/** 创建空白简历 */
+export function createEmptyResume(): ResumeData {
+  return {
+    name: '',
+    title: '',
+    email: '',
+    phone: '',
+    location: '',
+    website: '',
+    education: [{ school: '', degree: '', range: '' }],
+    experience: [{ company: '', role: '', range: '', desc: '' }],
+    projects: [{ name: '', tech: '', desc: '' }],
+    skills: '',
+    awards: '',
+    about: '',
+    customSections: [],
+    customBasics: [],
+    sections: createDefaultSections(),
+    template: 'minimal',
+    meta: { updatedAt: new Date().toISOString(), version: SCHEMA_VERSION }
+  };
+}
+
+/** 默认段落配置（按用户最常见的顺序） */
+export function createDefaultSections(): SectionConfig[] {
+  const order: Exclude<SectionKind, 'custom'>[] = ['education', 'experience', 'projects', 'skills', 'awards', 'about'];
+  return order.map((kind, i) => ({
+    id: `sec_${kind}`,
+    kind,
+    title: DEFAULT_SECTION_TITLE[kind],
+    enabled: true,
+    order: i
+  }));
+}
+
+/** 深度克隆（结构化数据足够浅，JSON 路线安全） */
+export function cloneResume(data: ResumeData): ResumeData {
+  return JSON.parse(JSON.stringify(data)) as ResumeData;
+}
+
+/** 触摸元信息：返回带新 updatedAt 的副本（不修改入参） */
+export function touchMeta(data: ResumeData): ResumeData {
+  return { ...data, meta: { ...data.meta, updatedAt: new Date().toISOString() } };
+}
+
+/**
+ * 简单字段 set：返回新对象
+ * 接受 DataPath（含 template），让 UI 偏好也能复用统一不可变更新
+ */
+export function setField<K extends DataPath>(
+  data: ResumeData,
+  path: K,
+  value: ResumeData[K]
+): ResumeData {
+  return touchMeta({ ...data, [path]: value });
+}
+
+/** 数组条目字段 set：返回新对象（不可变） */
+export function setArrayItemField(
+  data: ResumeData,
+  path: ArrayFieldPath,
+  index: number,
+  key: string,
+  value: string
+): ResumeData {
+  const list = data[path] as unknown as Array<Record<string, string>>;
+  if (index < 0 || index >= list.length) return data;
+  const next = list.map((item, i) => (i === index ? { ...item, [key]: value } : item));
+  return touchMeta({ ...data, [path]: next }) as unknown as ResumeData;
+}
+
+/** 数组新增条目 */
+export function addArrayItem<K extends ArrayFieldPath>(
+  data: ResumeData,
+  path: K,
+  factory: () => ResumeData[K][number]
+): ResumeData {
+  const list = data[path] as Array<unknown>;
+  const next = [...list, factory()];
+  return touchMeta({ ...data, [path]: next }) as ResumeData;
+}
+
+/** 数组删除条目（index 越界时静默 no-op） */
+export function removeArrayItem<K extends ArrayFieldPath>(
+  data: ResumeData,
+  path: K,
+  index: number
+): ResumeData {
+  const list = data[path] as Array<unknown>;
+  if (index < 0 || index >= list.length) return data;
+  const next = list.filter((_, i) => i !== index);
+  return touchMeta({ ...data, [path]: next }) as ResumeData;
+}
+
+/** 工厂函数：构造各类空条目 */
+export const ItemFactories = {
+  education: (): EducationItem => ({ school: '', degree: '', range: '' }),
+  experience: (): ExperienceItem => ({ company: '', role: '', range: '', desc: '' }),
+  projects: (): ProjectItem => ({ name: '', tech: '', desc: '' })
+} as const;
+
+/* ---------------- Section 操作 ---------------- */
+
+/** 通用 id 生成 */
+function genId(prefix: string): string {
+  return `${prefix}_${Date.now().toString(36)}_${Math.random().toString(36).slice(2, 8)}`;
+}
+
+/** 自定义段落条目的空对象 */
+function genCustomItem(): CustomItem {
+  return { id: genId('itm'), title: '', desc: '' };
+}
+
+/** 重命名段落 */
+export function renameSection(data: ResumeData, sectionId: string, title: string): ResumeData {
+  const sections = data.sections.map((s) => (s.id === sectionId ? { ...s, title } : s));
+  return touchMeta({ ...data, sections });
+}
+
+/** 切换段落可见性 */
+export function toggleSection(data: ResumeData, sectionId: string, enabled?: boolean): ResumeData {
+  const sections = data.sections.map((s) =>
+    s.id === sectionId ? { ...s, enabled: enabled ?? !s.enabled } : s
+  );
+  return touchMeta({ ...data, sections });
+}
+
+/** 段落上移 / 下移（交换 order） */
+export function moveSection(data: ResumeData, sectionId: string, dir: 'up' | 'down'): ResumeData {
+  const sorted = [...data.sections].sort((a, b) => a.order - b.order);
+  const idx = sorted.findIndex((s) => s.id === sectionId);
+  if (idx < 0) return data;
+  const swap = dir === 'up' ? idx - 1 : idx + 1;
+  if (swap < 0 || swap >= sorted.length) return data;
+  const a = sorted[idx]!;
+  const b = sorted[swap]!;
+  const aOrder = a.order;
+  const reordered = sorted.map((s) => {
+    if (s.id === a.id) return { ...s, order: b.order };
+    if (s.id === b.id) return { ...s, order: aOrder };
+    return s;
+  });
+  return touchMeta({ ...data, sections: reordered });
+}
+
+/**
+ * 段落拖拽到指定位置：将 sectionId 移动到目标 idx 之前
+ * - 重新分配 order，使列表在按 order 排序后，sectionId 出现在 idx 处
+ */
+export function moveSectionTo(data: ResumeData, sectionId: string, targetIdx: number): ResumeData {
+  const sorted = [...data.sections].sort((a, b) => a.order - b.order);
+  const fromIdx = sorted.findIndex((s) => s.id === sectionId);
+  if (fromIdx < 0) return data;
+  let toIdx = targetIdx;
+  if (toIdx < 0) toIdx = 0;
+  if (toIdx > sorted.length - 1) toIdx = sorted.length - 1;
+  if (fromIdx === toIdx) return data;
+  // 抽出后插入
+  const [moved] = sorted.splice(fromIdx, 1);
+  sorted.splice(toIdx, 0, moved!);
+  // 重新分配 order
+  const reordered = sorted.map((s, i) => ({ ...s, order: i }));
+  return touchMeta({ ...data, sections: reordered });
+}
+
+/** 删除自定义段落（同时移除数据和配置）；内置段落用 toggleSection(false) 替代 */
+export function removeSection(data: ResumeData, sectionId: string): ResumeData {
+  const sec = data.sections.find((s) => s.id === sectionId);
+  if (!sec || sec.kind !== 'custom') return data;
+  const sections = data.sections.filter((s) => s.id !== sectionId);
+  const customSections = data.customSections.filter((c) => c.id !== sec.dataId);
+  return touchMeta({ ...data, sections, customSections });
+}
+
+/**
+ * 新增自定义段落（支持指定形态、标题、初始条目）
+ * 用法：
+ *   addCustomSection(data)                       // 默认 text 形态，标题"自定义段落"
+ *   addCustomSection(data, { title, shape })     // 自定义标题/形态
+ *   addCustomSection(data, { preset: 'publications' })  // 用预设一键添加
+ */
+export interface AddSectionInput {
+  title?: string;
+  shape?: CustomShape;
+  /** 初始条目（list 形态专用） */
+  initialItems?: number;
+}
+
+export function addCustomSection(
+  data: ResumeData,
+  input: AddSectionInput | string = {}
+): ResumeData {
+  const opts: AddSectionInput = typeof input === 'string' ? { title: input } : input;
+  const id = genId('cus');
+  const maxOrder = data.sections.reduce((m, s) => Math.max(m, s.order), -1);
+  const shape: CustomShape = opts.shape ?? 'text';
+  const newSection: SectionConfig = {
+    id,
+    kind: 'custom',
+    title: opts.title ?? '自定义段落',
+    enabled: true,
+    order: maxOrder + 1,
+    dataId: id,
+    shape
+  };
+  const initial: CustomItem[] = [];
+  const count = Math.max(0, opts.initialItems ?? (shape === 'list' ? 1 : 0));
+  for (let i = 0; i < count; i += 1) {
+    initial.push(genCustomItem());
+  }
+  const newData: CustomSection = { id, shape, content: '', items: initial };
+  return touchMeta({
+    ...data,
+    sections: [...data.sections, newSection],
+    customSections: [...data.customSections, newData]
+  });
+}
+
+/** 设置自定义段落内容（text 形态） */
+export function setCustomSectionContent(
+  data: ResumeData,
+  dataId: string,
+  content: string
+): ResumeData {
+  const customSections = data.customSections.map((c) => (c.id === dataId ? { ...c, content } : c));
+  return touchMeta({ ...data, customSections });
+}
+
+/** 在自定义段落（list 形态）中新增一个条目 */
+export function addCustomItem(data: ResumeData, dataId: string): ResumeData {
+  const customSections = data.customSections.map((c) =>
+    c.id === dataId ? { ...c, items: [...c.items, genCustomItem()] } : c
+  );
+  return touchMeta({ ...data, customSections });
+}
+
+/** 设置自定义段落条目的字段 */
+export function setCustomItemField(
+  data: ResumeData,
+  dataId: string,
+  itemId: string,
+  key: 'title' | 'desc',
+  value: string
+): ResumeData {
+  const customSections = data.customSections.map((c) => {
+    if (c.id !== dataId) return c;
+    return {
+      ...c,
+      items: c.items.map((it) => (it.id === itemId ? { ...it, [key]: value } : it))
+    };
+  });
+  return touchMeta({ ...data, customSections });
+}
+
+/** 删除自定义段落的一个条目 */
+export function removeCustomItem(data: ResumeData, dataId: string, itemId: string): ResumeData {
+  const customSections = data.customSections.map((c) => {
+    if (c.id !== dataId) return c;
+    const next = c.items.filter((it) => it.id !== itemId);
+    // 至少保留一个空条目，避免用户无法继续添加
+    if (next.length === 0) next.push(genCustomItem());
+    return { ...c, items: next };
+  });
+  return touchMeta({ ...data, customSections });
+}
+
+/** 获取按 order 排序后的段落配置 */
+export function sortedSections(data: ResumeData): SectionConfig[] {
+  return [...data.sections].sort((a, b) => a.order - b.order);
+}
+
+/* ---------------- Custom Basics 操作 ---------------- */
+
+/** 构造一个空的自定义基础信息字段（默认 label 为"自定义"） */
+function genBasicField(label = '自定义'): BasicField {
+  return { id: `bf_${Date.now().toString(36)}_${Math.random().toString(36).slice(2, 8)}`, label, value: '' };
+}
+
+/** 新增自定义基础信息字段（在末尾追加） */
+export function addCustomBasic(data: ResumeData, label?: string): ResumeData {
+  const next = [...data.customBasics, genBasicField(label)];
+  return touchMeta({ ...data, customBasics: next });
+}
+
+/** 删除自定义基础信息字段（id 不存在时静默 no-op） */
+export function removeCustomBasic(data: ResumeData, id: string): ResumeData {
+  const next = data.customBasics.filter((b) => b.id !== id);
+  if (next.length === data.customBasics.length) return data;
+  return touchMeta({ ...data, customBasics: next });
+}
+
+/** 设置自定义基础信息字段的 label */
+export function setCustomBasicLabel(data: ResumeData, id: string, label: string): ResumeData {
+  const next = data.customBasics.map((b) => (b.id === id ? { ...b, label } : b));
+  return touchMeta({ ...data, customBasics: next });
+}
+
+/** 设置自定义基础信息字段的 value */
+export function setCustomBasicValue(data: ResumeData, id: string, value: string): ResumeData {
+  const next = data.customBasics.map((b) => (b.id === id ? { ...b, value } : b));
+  return touchMeta({ ...data, customBasics: next });
+}
+
+/** 移动自定义基础信息字段（dir='up' | 'down'） */
+export function moveCustomBasic(data: ResumeData, id: string, dir: 'up' | 'down'): ResumeData {
+  const idx = data.customBasics.findIndex((b) => b.id === id);
+  if (idx < 0) return data;
+  const swap = dir === 'up' ? idx - 1 : idx + 1;
+  if (swap < 0 || swap >= data.customBasics.length) return data;
+  const next = [...data.customBasics];
+  const a = next[idx]!;
+  const b = next[swap]!;
+  next[idx] = b;
+  next[swap] = a;
+  return touchMeta({ ...data, customBasics: next });
+}
