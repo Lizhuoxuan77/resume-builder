@@ -1,1 +1,520 @@
-LyoqCiAqIOW6lOeUqOS4u+aOp+WItuWZqAogKiDljZXkuIDogYzotKPvvJrnu4Too4XlkIQgVmlldyAvIFNlcnZpY2XvvIznvJbmjpLmlbDmja7mtYEKICogLSBWaWV3IOS4jeaMgeacieaVsOaNru+8m0NvbnRyb2xsZXIg5oyB5pyJIFJlc3VtZURhdGEg5Y2V5L6LCiAqIC0g5Lu75L2V5a2X5q615Y+Y5pu077yaQ29udHJvbGxlciDmm7TmlrDmlbDmja4g4oaSIOmAmuefpeebuOWFsyBWaWV3ICsg6Kem5Y+R6Ieq5Yqo5L+d5a2YICsg6Kem5Y+R5qCh6aqMCiAqIC0g5a+85Ye6IC8g5qih5p2/5YiH5o2iIC8g5a+85YWl562J5qiq5ZCR5Yqo5L2c55SxIENvbnRyb2xsZXIg57uf5LiA5Y2P6LCDCiAqLwoKaW1wb3J0IHsgYnVzIH0gZnJvbSAnQC9jb3JlL0V2ZW50QnVzJzsKaW1wb3J0IHsgRVZFTlRTLCB0eXBlIEV2ZW50TmFtZSB9IGZyb20gJ0AvdHlwZXMvZXZlbnRzJzsKaW1wb3J0IHR5cGUgewogIFJlc3VtZURhdGEsCiAgRmllbGRQYXRoLAogIEFycmF5RmllbGRQYXRoLAogIFRlbXBsYXRlSWQsCiAgVmFsaWRhdGlvbkVycm9yLAogIFZhbGlkYXRpb25SZXN1bHQsCiAgRXhwb3J0Rm9ybWF0LAogIFNlY3Rpb25QcmVzZXQsCiAgQ3VzdG9tU2hhcGUKfSBmcm9tICdAL3R5cGVzL3Jlc3VtZSc7CmltcG9ydCB7CiAgc2V0RmllbGQsCiAgc2V0QXJyYXlJdGVtRmllbGQsCiAgYWRkQXJyYXlJdGVtLAogIHJlbW92ZUFycmF5SXRlbSwKICBJdGVtRmFjdG9yaWVzLAogIHRvdWNoTWV0YSwKICByZW5hbWVTZWN0aW9uLAogIHRvZ2dsZVNlY3Rpb24sCiAgbW92ZVNlY3Rpb24sCiAgbW92ZVNlY3Rpb25UbywKICByZW1vdmVTZWN0aW9uLAogIGFkZEN1c3RvbVNlY3Rpb24sCiAgc2V0Q3VzdG9tU2VjdGlvbkNvbnRlbnQsCiAgYWRkQ3VzdG9tSXRlbSwKICBzZXRDdXN0b21JdGVtRmllbGQsCiAgcmVtb3ZlQ3VzdG9tSXRlbQp9IGZyb20gJ0AvbW9kZWxzL1Jlc3VtZURhdGEnOwppbXBvcnQgeyB2YWxpZGF0ZUZvckV4cG9ydCB9IGZyb20gJ0AvbW9kZWxzL1ZhbGlkYXRvcic7CgppbXBvcnQgeyBTdG9yYWdlU2VydmljZSB9IGZyb20gJ0Avc2VydmljZXMvU3RvcmFnZVNlcnZpY2UnOwppbXBvcnQgeyBWYWxpZGF0aW9uU2VydmljZSB9IGZyb20gJ0Avc2VydmljZXMvVmFsaWRhdGlvblNlcnZpY2UnOwppbXBvcnQgeyBLZXlib2FyZFNlcnZpY2UgfSBmcm9tICdAL3NlcnZpY2VzL0tleWJvYXJkU2VydmljZSc7CmltcG9ydCB7IGdldFN0cmF0ZWd5LCBidWlsZEZpbGVuYW1lIH0gZnJvbSAnQC9zZXJ2aWNlcy9FeHBvcnRTZXJ2aWNlJzsKaW1wb3J0IHsgaW1wb3J0RG9jeEludG8gfSBmcm9tICdAL3NlcnZpY2VzL2ltcG9ydGVycyc7CgppbXBvcnQgeyBFZGl0b3JWaWV3IH0gZnJvbSAnQC92aWV3cy9FZGl0b3JWaWV3JzsKaW1wb3J0IHsgUHJldmlld1ZpZXcgfSBmcm9tICdAL3ZpZXdzL1ByZXZpZXdWaWV3JzsKaW1wb3J0IHsgVGVtcGxhdGVQaWNrZXJWaWV3IH0gZnJvbSAnQC92aWV3cy9UZW1wbGF0ZVBpY2tlclZpZXcnOwppbXBvcnQgeyBFeHBvcnREaWFsb2dWaWV3IH0gZnJvbSAnQC92aWV3cy9FeHBvcnREaWFsb2dWaWV3JzsKaW1wb3J0IHsgVG9hc3RWaWV3IH0gZnJvbSAnQC92aWV3cy9Ub2FzdFZpZXcnOwppbXBvcnQgeyBUb3BCYXJWaWV3LCB0eXBlIFRvcEJhclN0YXRlIH0gZnJvbSAnQC92aWV3cy9Ub3BCYXJWaWV3JzsKaW1wb3J0IHsgVmFsaWRhdGlvbkJhclZpZXcgfSBmcm9tICdAL3ZpZXdzL1ZhbGlkYXRpb25CYXJWaWV3JzsKCmltcG9ydCB7IGVsIH0gZnJvbSAnQC91dGlscy9kb20nOwppbXBvcnQgeyBkb3dubG9hZFRleHQgfSBmcm9tICdAL3V0aWxzJzsKCmV4cG9ydCBjbGFzcyBBcHBDb250cm9sbGVyIHsKICBwcml2YXRlIGRhdGE6IFJlc3VtZURhdGE7CiAgcHJpdmF0ZSByZWFkb25seSBzdG9yYWdlOiBTdG9yYWdlU2VydmljZTsKICBwcml2YXRlIHJlYWRvbmx5IHZhbGlkYXRpb246IFZhbGlkYXRpb25TZXJ2aWNlOwogIHByaXZhdGUgcmVhZG9ubHkga2V5Ym9hcmQ6IEtleWJvYXJkU2VydmljZTsKCiAgcHJpdmF0ZSBlZGl0b3IhOiBFZGl0b3JWaWV3OwogIHByaXZhdGUgcHJldmlldyE6IFByZXZpZXdWaWV3OwogIHByaXZhdGUgdGVtcGxhdGVQaWNrZXIhOiBUZW1wbGF0ZVBpY2tlclZpZXc7CiAgcHJpdmF0ZSBleHBvcnREaWFsb2chOiBFeHBvcnREaWFsb2dWaWV3OwogIHByaXZhdGUgdG9hc3QhOiBUb2FzdFZpZXc7CiAgcHJpdmF0ZSB0b3BCYXIhOiBUb3BCYXJWaWV3OwogIHByaXZhdGUgdmFsaWRhdGlvbkJhciE6IFZhbGlkYXRpb25CYXJWaWV3OwoKICBwcml2YXRlIHJvb3Q6IEhUTUxFbGVtZW50OwogIHByaXZhdGUgYmFzZUNzczogc3RyaW5nOwogIHByaXZhdGUgdGVtcGxhdGVDc3M6IHN0cmluZzsKCiAgY29uc3RydWN0b3Iocm9vdDogSFRNTEVsZW1lbnQsIGJhc2VDc3M6IHN0cmluZywgdGVtcGxhdGVDc3M6IHN0cmluZykgewogICAgdGhpcy5yb290ID0gcm9vdDsKICAgIHRoaXMuYmFzZUNzcyA9IGJhc2VDc3M7CiAgICB0aGlzLnRlbXBsYXRlQ3NzID0gdGVtcGxhdGVDc3M7CgogICAgdGhpcy5zdG9yYWdlID0gbmV3IFN0b3JhZ2VTZXJ2aWNlKCk7CiAgICB0aGlzLnZhbGlkYXRpb24gPSBuZXcgVmFsaWRhdGlvblNlcnZpY2UoKTsKICAgIHRoaXMua2V5Ym9hcmQgPSBuZXcgS2V5Ym9hcmRTZXJ2aWNlKCk7CgogICAgdGhpcy5kYXRhID0gdGhpcy5zdG9yYWdlLmxvYWQoKTsKICB9CgogIHN0YXJ0KCk6IHZvaWQgewogICAgdGhpcy5sYXlvdXQoKTsKICAgIHRoaXMuYmluZFNlcnZpY2VzKCk7CiAgICB0aGlzLmtleWJvYXJkLnN0YXJ0KCk7CgogICAgLy8g5Yid5qyh5o6o6YCBCiAgICB0aGlzLnB1c2hBbGwoKTsKICB9CgogIC8qIC0tLS0tLS0tLS0tLS0tLS0gTGF5b3V0IC0tLS0tLS0tLS0tLS0tLS0gKi8KCiAgcHJpdmF0ZSBsYXlvdXQoKTogdm9pZCB7CiAgICB0aGlzLnJvb3QuaW5uZXJIVE1MID0gJyc7CiAgICB0aGlzLnJvb3QuY2xhc3NMaXN0LmFkZCgncmItYXBwJyk7CgogICAgLy8g6aG26YOoCiAgICBjb25zdCB0b3BiYXIgPSBlbCgnaGVhZGVyJywgeyBjbGFzc05hbWU6ICdyYi10b3BiYXInIH0pOwogICAgdGhpcy5yb290LmFwcGVuZENoaWxkKHRvcGJhcik7CiAgICB0aGlzLnRvcEJhciA9IG5ldyBUb3BCYXJWaWV3KHsKICAgICAgb25TYXZlTm93OiAoKSA9PiB0aGlzLmhhbmRsZVNhdmVOb3coKSwKICAgICAgb25FeHBvcnRKc29uOiAoKSA9PiB0aGlzLmhhbmRsZUV4cG9ydEpzb24oKSwKICAgICAgb25JbXBvcnRKc29uOiAoZmlsZSkgPT4gdGhpcy5oYW5kbGVJbXBvcnRKc29uKGZpbGUpLAogICAgICBvbkltcG9ydERvY3g6IChmaWxlKSA9PiB0aGlzLmhhbmRsZUltcG9ydERvY3goZmlsZSksCiAgICAgIG9uQ2xlYXI6ICgpID0+IHRoaXMuaGFuZGxlQ2xlYXIoKSwKICAgICAgb25PcGVuVGVtcGxhdGU6ICgpID0+IHRoaXMub3BlblRlbXBsYXRlUGlja2VyKCksCiAgICAgIG9uT3BlbkV4cG9ydDogKCkgPT4gdGhpcy5vcGVuRXhwb3J0RGlhbG9nKCkKICAgIH0pOwogICAgdGhpcy50b3BCYXIubW91bnQodG9wYmFyKTsKCiAgICAvLyDmoKHpqozmnaEKICAgIGNvbnN0IHZiYXIgPSBlbCgnZGl2JywgeyBjbGFzc05hbWU6ICdyYi12YWxpZGF0aW9uYmFyLXdyYXAnIH0pOwogICAgdGhpcy5yb290LmFwcGVuZENoaWxkKHZiYXIpOwogICAgdGhpcy52YWxpZGF0aW9uQmFyID0gbmV3IFZhbGlkYXRpb25CYXJWaWV3KCk7CiAgICB0aGlzLnZhbGlkYXRpb25CYXIubW91bnQodmJhcik7CgogICAgLy8g5Li75bel5L2c5Yy6CiAgICBjb25zdCBtYWluID0gZWwoJ21haW4nLCB7IGNsYXNzTmFtZTogJ3JiLW1haW4nIH0pOwogICAgY29uc3QgZWRpdG9yUGFuZSA9IGVsKCdzZWN0aW9uJywgeyBjbGFzc05hbWU6ICdyYi1wYW5lIHJiLXBhbmUtLWVkaXRvcicgfSk7CiAgICBjb25zdCBwcmV2aWV3UGFuZSA9IGVsKCdzZWN0aW9uJywgeyBjbGFzc05hbWU6ICdyYi1wYW5lIHJiLXBhbmUtLXByZXZpZXcnIH0pOwogICAgbWFpbi5hcHBlbmQoZWRpdG9yUGFuZSwgcHJldmlld1BhbmUpOwogICAgdGhpcy5yb290LmFwcGVuZENoaWxkKG1haW4pOwoKICAgIHRoaXMuZWRpdG9yID0gbmV3IEVkaXRvclZpZXcoewogICAgICBvbkZpZWxkOiAocGF0aCwgdmFsdWUpID0+IHRoaXMuaGFuZGxlRmllbGRDaGFuZ2UocGF0aCwgdmFsdWUpLAogICAgICBvbkFycmF5RmllbGQ6IChwYXRoLCBpZHgsIGtleSwgdmFsdWUpID0+IHRoaXMuaGFuZGxlQXJyYXlGaWVsZENoYW5nZShwYXRoLCBpZHgsIGtleSwgdmFsdWUpLAogICAgICBvbkFkZDogKHBhdGgpID0+IHRoaXMuaGFuZGxlQWRkKHBhdGgpLAogICAgICBvblJlbW92ZTogKHBhdGgsIGlkeCkgPT4gdGhpcy5oYW5kbGVSZW1vdmUocGF0aCwgaWR4KSwKICAgICAgb25Db2xsYXBzZTogKF9wYXRoLCBfY29sbGFwc2VkKSA9PiB7IC8qIOinhuWbvuWGheW3sue7tOaKpOeKtuaAgSAqLyB9LAogICAgICBvblJlbmFtZVNlY3Rpb246IChpZCwgdGl0bGUpID0+IHRoaXMuaGFuZGxlUmVuYW1lU2VjdGlvbihpZCwgdGl0bGUpLAogICAgICBvblRvZ2dsZVNlY3Rpb246IChpZCwgZW5hYmxlZCkgPT4gdGhpcy5oYW5kbGVUb2dnbGVTZWN0aW9uKGlkLCBlbmFibGVkKSwKICAgICAgb25Nb3ZlU2VjdGlvbjogKGlkLCBkaXIpID0+IHRoaXMuaGFuZGxlTW92ZVNlY3Rpb24oaWQsIGRpciksCiAgICAgIG9uTW92ZVNlY3Rpb25UbzogKGlkLCB0YXJnZXRJZHgpID0+IHRoaXMuaGFuZGxlTW92ZVNlY3Rpb25UbyhpZCwgdGFyZ2V0SWR4KSwKICAgICAgb25SZW1vdmVTZWN0aW9uOiAoaWQpID0+IHRoaXMuaGFuZGxlUmVtb3ZlU2VjdGlvbihpZCksCiAgICAgIG9uQWRkU2VjdGlvbjogKGlucHV0KSA9PiB0aGlzLmhhbmRsZUFkZFNlY3Rpb24oaW5wdXQpLAogICAgICBvbkN1c3RvbVNlY3Rpb25Db250ZW50OiAoZGF0YUlkLCBjb250ZW50KSA9PiB0aGlzLmhhbmRsZUN1c3RvbUNvbnRlbnQoZGF0YUlkLCBjb250ZW50KSwKICAgICAgb25DdXN0b21JdGVtRmllbGQ6IChkYXRhSWQsIGl0ZW1JZCwga2V5LCB2YWx1ZSkgPT4gdGhpcy5oYW5kbGVDdXN0b21JdGVtRmllbGQoZGF0YUlkLCBpdGVtSWQsIGtleSwgdmFsdWUpLAogICAgICBvbkN1c3RvbUl0ZW1BZGQ6IChkYXRhSWQpID0+IHRoaXMuaGFuZGxlQ3VzdG9tSXRlbUFkZChkYXRhSWQpLAogICAgICBvbkN1c3RvbUl0ZW1SZW1vdmU6IChkYXRhSWQsIGl0ZW1JZCkgPT4gdGhpcy5oYW5kbGVDdXN0b21JdGVtUmVtb3ZlKGRhdGFJZCwgaXRlbUlkKQogICAgfSk7CiAgICB0aGlzLmVkaXRvci5tb3VudChlZGl0b3JQYW5lKTsKCiAgICB0aGlzLnByZXZpZXcgPSBuZXcgUHJldmlld1ZpZXcoKTsKICAgIHRoaXMucHJldmlldy5tb3VudChwcmV2aWV3UGFuZSk7CgogICAgLy8g5qih5oCB5oyC6L2954K577yI5q+P5LiqIG1vZGFsIOeLrOeri+aMgui9ve+8jOmBv+WFjeS6kuebuCBjbGVhcu+8iQogICAgY29uc3QgdHBsSG9zdCA9IGVsKCdkaXYnLCB7IGNsYXNzTmFtZTogJ3JiLW1vZGFscyByYi1tb2RhbHMtLXRwbCcgfSk7CiAgICBjb25zdCBleHBIb3N0ID0gZWwoJ2RpdicsIHsgY2xhc3NOYW1lOiAncmItbW9kYWxzIHJiLW1vZGFscy0tZXhwJyB9KTsKICAgIHRoaXMucm9vdC5hcHBlbmQodHBsSG9zdCwgZXhwSG9zdCk7CiAgICB0aGlzLnRlbXBsYXRlUGlja2VyID0gbmV3IFRlbXBsYXRlUGlja2VyVmlldyh7CiAgICAgIG9uUGljazogKGlkKSA9PiB0aGlzLmhhbmRsZVBpY2tUZW1wbGF0ZShpZCksCiAgICAgIG9uQ2xvc2U6ICgpID0+IHRoaXMuY2xvc2VUZW1wbGF0ZVBpY2tlcigpCiAgICB9KTsKICAgIHRoaXMudGVtcGxhdGVQaWNrZXIubW91bnQodHBsSG9zdCk7CiAgICB0aGlzLmV4cG9ydERpYWxvZyA9IG5ldyBFeHBvcnREaWFsb2dWaWV3KHsKICAgICAgb25FeHBvcnQ6IChmKSA9PiB0aGlzLmhhbmRsZUV4cG9ydChmKSwKICAgICAgb25DbG9zZTogKCkgPT4gdGhpcy5jbG9zZUV4cG9ydERpYWxvZygpCiAgICB9KTsKICAgIHRoaXMuZXhwb3J0RGlhbG9nLm1vdW50KGV4cEhvc3QpOwoKICAgIC8vIFRvYXN0IOaMgui9veeCuQogICAgY29uc3QgdG9hc3RIb3N0ID0gZWwoJ2RpdicsIHsgY2xhc3NOYW1lOiAncmItdG9hc3Qtd3JhcCcgfSk7CiAgICB0aGlzLnJvb3QuYXBwZW5kQ2hpbGQodG9hc3RIb3N0KTsKICAgIHRoaXMudG9hc3QgPSBuZXcgVG9hc3RWaWV3KCk7CiAgICB0aGlzLnRvYXN0Lm1vdW50KHRvYXN0SG9zdCk7CiAgfQoKICAvKiAtLS0tLS0tLS0tLS0tLS0tIFNlcnZpY2UgQmluZGluZ3MgLS0tLS0tLS0tLS0tLS0tLSAqLwoKICBwcml2YXRlIGJpbmRTZXJ2aWNlcygpOiB2b2lkIHsKICAgIGJ1cy5vbihFVkVOVFMuVEVNUExBVEVfUElDS0VSX09QRU4sICgpID0+IHRoaXMub3BlblRlbXBsYXRlUGlja2VyKCkpOwogICAgYnVzLm9uKEVWRU5UUy5URU1QTEFURV9QSUNLRVJfQ0xPU0UsICgpID0+IHRoaXMuY2xvc2VUZW1wbGF0ZVBpY2tlcigpKTsKICAgIGJ1cy5vbihFVkVOVFMuRVhQT1JUX09QRU4sICgpID0+IHRoaXMub3BlbkV4cG9ydERpYWxvZygpKTsKICAgIGJ1cy5vbihFVkVOVFMuRVhQT1JUX0NMT1NFLCAoKSA9PiB0aGlzLmNsb3NlRXhwb3J0RGlhbG9nKCkpOwogICAgYnVzLm9uKEVWRU5UUy5BVVRPU0FWRV9ET05FLCAoKSA9PiB0aGlzLnJlZnJlc2hUb3BCYXIoKSk7CiAgICBidXMub24oRVZFTlRTLlNUT1JBR0VfREVHUkFERUQsICgpID0+IHRoaXMucmVmcmVzaFRvcEJhcigpKTsKICAgIGJ1cy5vbihFVkVOVFMuU1RPUkFHRV9PSywgKCkgPT4gdGhpcy5yZWZyZXNoVG9wQmFyKCkpOwogICAgYnVzLm9uKEVWRU5UUy5WQUxJREFUSU9OX1VQREFURUQsIChyZXN1bHQ6IFZhbGlkYXRpb25SZXN1bHQpID0+IHRoaXMudmFsaWRhdGlvbkJhci5zZXRTdGF0ZShyZXN1bHQpKTsKICAgIGJ1cy5vbignc2hvcnRjdXQ6c2F2ZScgYXMgRXZlbnROYW1lLCAoKSA9PiB0aGlzLmhhbmRsZVNhdmVOb3coKSk7CiAgICBidXMub24oJ3Nob3J0Y3V0OnRlbXBsYXRlOjEnIGFzIEV2ZW50TmFtZSwgKCkgPT4gdGhpcy5oYW5kbGVQaWNrVGVtcGxhdGUoJ21pbmltYWwnKSk7CiAgICBidXMub24oJ3Nob3J0Y3V0OnRlbXBsYXRlOjInIGFzIEV2ZW50TmFtZSwgKCkgPT4gdGhpcy5oYW5kbGVQaWNrVGVtcGxhdGUoJ3NpZGViYXInKSk7CiAgICBidXMub24oJ3Nob3J0Y3V0OnRlbXBsYXRlOjMnIGFzIEV2ZW50TmFtZSwgKCkgPT4gdGhpcy5oYW5kbGVQaWNrVGVtcGxhdGUoJ2NvbXBhY3QnKSk7CiAgICBidXMub24oJ3Nob3J0Y3V0OmVzY2FwZScgYXMgRXZlbnROYW1lLCAoKSA9PiB0aGlzLmhhbmRsZUVzY2FwZSgpKTsKICB9CgogIC8qIC0tLS0tLS0tLS0tLS0tLS0gUHVzaCBzdGF0ZSB0byB2aWV3cyAtLS0tLS0tLS0tLS0tLS0tICovCgogIHByaXZhdGUgcHVzaEFsbCgpOiB2b2lkIHsKICAgIHRoaXMuZWRpdG9yLnNldFN0YXRlKHRoaXMuZGF0YSk7CiAgICB0aGlzLnByZXZpZXcuc2V0U3RhdGUodGhpcy5kYXRhKTsKICAgIHRoaXMudGVtcGxhdGVQaWNrZXIuc2V0U3RhdGUoeyBjdXJyZW50OiB0aGlzLmRhdGEudGVtcGxhdGUgfSk7CiAgICB0aGlzLnZhbGlkYXRpb24ubm90aWZ5KHRoaXMuZGF0YSk7CiAgICB0aGlzLnJlZnJlc2hUb3BCYXIoKTsKICB9CgogIHByaXZhdGUgcmVmcmVzaFRvcEJhcigpOiB2b2lkIHsKICAgIGNvbnN0IHN0YXR1cyA9IHRoaXMuc3RvcmFnZS5nZXRTdGF0dXMoKTsKICAgIGNvbnN0IHM6IFRvcEJhclN0YXRlID0gewogICAgICBzYXZlZFRleHQ6IHRoaXMuc3RvcmFnZS5nZXRMYXN0U2F2ZWRUZXh0KCksCiAgICAgIHNpemVUZXh0OiB0aGlzLnN0b3JhZ2UuZ2V0U2l6ZVRleHQoKSwKICAgICAgcmF0aW86IHN0YXR1cy5yYXRpbywKICAgICAgZGVncmFkZWQ6IHN0YXR1cy5kZWdyYWRlZAogICAgfTsKICAgIHRoaXMudG9wQmFyLnNldFN0YXRlKHMpOwogIH0KCiAgLyogLS0tLS0tLS0tLS0tLS0tLSBIYW5kbGVyczogRWRpdG9yIC0tLS0tLS0tLS0tLS0tLS0gKi8KCiAgcHJpdmF0ZSBoYW5kbGVGaWVsZENoYW5nZShwYXRoOiBGaWVsZFBhdGgsIHZhbHVlOiBzdHJpbmcpOiB2b2lkIHsKICAgIHRoaXMuZGF0YSA9IHNldEZpZWxkKHRoaXMuZGF0YSwgcGF0aCwgdmFsdWUpOwogICAgdGhpcy5hZnRlckRhdGFDaGFuZ2UoKTsKICB9CgogIHByaXZhdGUgaGFuZGxlQXJyYXlGaWVsZENoYW5nZSgKICAgIHBhdGg6IEFycmF5RmllbGRQYXRoLAogICAgaW5kZXg6IG51bWJlciwKICAgIGtleTogc3RyaW5nLAogICAgdmFsdWU6IHN0cmluZwogICk6IHZvaWQgewogICAgdGhpcy5kYXRhID0gc2V0QXJyYXlJdGVtRmllbGQodGhpcy5kYXRhLCBwYXRoLCBpbmRleCwga2V5LCB2YWx1ZSk7CiAgICB0aGlzLmFmdGVyRGF0YUNoYW5nZSgpOwogIH0KCiAgcHJpdmF0ZSBoYW5kbGVBZGQocGF0aDogQXJyYXlGaWVsZFBhdGgpOiB2b2lkIHsKICAgIGNvbnN0IGZhY3RvcnkgPSBJdGVtRmFjdG9yaWVzW3BhdGhdOwogICAgdGhpcy5kYXRhID0gYWRkQXJyYXlJdGVtKHRoaXMuZGF0YSwgcGF0aCwgZmFjdG9yeSk7CiAgICB0aGlzLmFmdGVyRGF0YUNoYW5nZSgpOwogICAgdGhpcy5wdXNoQWxsKCk7CiAgfQoKICBwcml2YXRlIGhhbmRsZVJlbW92ZShwYXRoOiBBcnJheUZpZWxkUGF0aCwgaW5kZXg6IG51bWJlcik6IHZvaWQgewogICAgdGhpcy5kYXRhID0gcmVtb3ZlQXJyYXlJdGVtKHRoaXMuZGF0YSwgcGF0aCwgaW5kZXgpOwogICAgdGhpcy5hZnRlckRhdGFDaGFuZ2UoKTsKICAgIHRoaXMucHVzaEFsbCgpOwogICAgdGhpcy50b2FzdC5zaG93KCflt7LliKDpmaTkuIDmnaEnLCAnaW5mbycsIDE1MDApOwogIH0KCiAgLyogLS0tLS0tLS0tLS0tLS0tLSBIYW5kbGVyczogU2VjdGlvbnMgLS0tLS0tLS0tLS0tLS0tLSAqLwoKICBwcml2YXRlIGhhbmRsZVJlbmFtZVNlY3Rpb24oaWQ6IHN0cmluZywgdGl0bGU6IHN0cmluZyk6IHZvaWQgewogICAgY29uc3QgdCA9IHRpdGxlLnRyaW0oKTsKICAgIGlmICghdCkgcmV0dXJuOyAvLyDnqbrmoIfpopjvvJrlv73nlaXvvIjkv53nlZnljp/lgLzvvIkKICAgIHRoaXMuZGF0YSA9IHJlbmFtZVNlY3Rpb24odGhpcy5kYXRhLCBpZCwgdCk7CiAgICB0aGlzLmFmdGVyRGF0YUNoYW5nZSgpOwogIH0KCiAgcHJpdmF0ZSBoYW5kbGVUb2dnbGVTZWN0aW9uKGlkOiBzdHJpbmcsIGVuYWJsZWQ/OiBib29sZWFuKTogdm9pZCB7CiAgICB0aGlzLmRhdGEgPSB0b2dnbGVTZWN0aW9uKHRoaXMuZGF0YSwgaWQsIGVuYWJsZWQpOwogICAgLy8gdG9nZ2xlIOS8muaUueWPmCBjYXJkIOinhuinieaAge+8iGJhZGdlIC8g6Jma57q/IC8g5Yig6Zmk57q/77yJ77yM6ZyA6KaBIGVkaXRvciDph43muLLmn5MKICAgIHRoaXMuYWZ0ZXJEYXRhQ2hhbmdlKCk7CiAgICB0aGlzLmVkaXRvci5zZXRTdGF0ZSh0aGlzLmRhdGEpOwogIH0KCiAgcHJpdmF0ZSBoYW5kbGVNb3ZlU2VjdGlvbihpZDogc3RyaW5nLCBkaXI6ICd1cCcgfCAnZG93bicpOiB2b2lkIHsKICAgIHRoaXMuZGF0YSA9IG1vdmVTZWN0aW9uKHRoaXMuZGF0YSwgaWQsIGRpcik7CiAgICB0aGlzLmFmdGVyRGF0YUNoYW5nZSgpOwogICAgdGhpcy5wdXNoQWxsKCk7CiAgfQoKICBwcml2YXRlIGhhbmRsZU1vdmVTZWN0aW9uVG8oaWQ6IHN0cmluZywgdGFyZ2V0SWR4OiBudW1iZXIpOiB2b2lkIHsKICAgIHRoaXMuZGF0YSA9IG1vdmVTZWN0aW9uVG8odGhpcy5kYXRhLCBpZCwgdGFyZ2V0SWR4KTsKICAgIHRoaXMuYWZ0ZXJEYXRhQ2hhbmdlKCk7CiAgICB0aGlzLnB1c2hBbGwoKTsKICB9CgogIHByaXZhdGUgaGFuZGxlUmVtb3ZlU2VjdGlvbihpZDogc3RyaW5nKTogdm9pZCB7CiAgICB0aGlzLmRhdGEgPSByZW1vdmVTZWN0aW9uKHRoaXMuZGF0YSwgaWQpOwogICAgdGhpcy5hZnRlckRhdGFDaGFuZ2UoKTsKICAgIHRoaXMucHVzaEFsbCgpOwogICAgdGhpcy50b2FzdC5zaG93KCflt7LliKDpmaTmrrXokL0nLCAnaW5mbycsIDE1MDApOwogIH0KCiAgcHJpdmF0ZSBoYW5kbGVBZGRTZWN0aW9uKGlucHV0OiBTZWN0aW9uUHJlc2V0IHwgeyB0aXRsZTogc3RyaW5nOyBzaGFwZTogQ3VzdG9tU2hhcGUgfSk6IHZvaWQgewogICAgaWYgKCdrZXknIGluIGlucHV0KSB7CiAgICAgIC8vIOmihOiuvu+8mnRpdGxlL3NoYXBlIOebtOaOpeeUqOmihOiuvgogICAgICB0aGlzLmRhdGEgPSBhZGRDdXN0b21TZWN0aW9uKHRoaXMuZGF0YSwgewogICAgICAgIHRpdGxlOiBpbnB1dC50aXRsZSwKICAgICAgICBzaGFwZTogaW5wdXQuc2hhcGUsCiAgICAgICAgaW5pdGlhbEl0ZW1zOiBpbnB1dC5zaGFwZSA9PT0gJ2xpc3QnID8gMSA6IDAKICAgICAgfSk7CiAgICB9IGVsc2UgewogICAgICB0aGlzLmRhdGEgPSBhZGRDdXN0b21TZWN0aW9uKHRoaXMuZGF0YSwgewogICAgICAgIHRpdGxlOiBpbnB1dC50aXRsZSwKICAgICAgICBzaGFwZTogaW5wdXQuc2hhcGUsCiAgICAgICAgaW5pdGlhbEl0ZW1zOiBpbnB1dC5zaGFwZSA9PT0gJ2xpc3QnID8gMSA6IDAKICAgICAgfSk7CiAgICB9CiAgICB0aGlzLmFmdGVyRGF0YUNoYW5nZSgpOwogICAgdGhpcy5wdXNoQWxsKCk7CiAgfQoKICBwcml2YXRlIGhhbmRsZUN1c3RvbUNvbnRlbnQoZGF0YUlkOiBzdHJpbmcsIGNvbnRlbnQ6IHN0cmluZyk6IHZvaWQgewogICAgdGhpcy5kYXRhID0gc2V0Q3VzdG9tU2VjdGlvbkNvbnRlbnQodGhpcy5kYXRhLCBkYXRhSWQsIGNvbnRlbnQpOwogICAgdGhpcy5hZnRlckRhdGFDaGFuZ2UoKTsKICB9CgogIHByaXZhdGUgaGFuZGxlQ3VzdG9tSXRlbUZpZWxkKGRhdGFJZDogc3RyaW5nLCBpdGVtSWQ6IHN0cmluZywga2V5OiAndGl0bGUnIHwgJ2Rlc2MnLCB2YWx1ZTogc3RyaW5nKTogdm9pZCB7CiAgICB0aGlzLmRhdGEgPSBzZXRDdXN0b21JdGVtRmllbGQodGhpcy5kYXRhLCBkYXRhSWQsIGl0ZW1JZCwga2V5LCB2YWx1ZSk7CiAgICB0aGlzLmFmdGVyRGF0YUNoYW5nZSgpOwogIH0KCiAgcHJpdmF0ZSBoYW5kbGVDdXN0b21JdGVtQWRkKGRhdGFJZDogc3RyaW5nKTogdm9pZCB7CiAgICB0aGlzLmRhdGEgPSBhZGRDdXN0b21JdGVtKHRoaXMuZGF0YSwgZGF0YUlkKTsKICAgIHRoaXMuYWZ0ZXJEYXRhQ2hhbmdlKCk7CiAgICB0aGlzLnB1c2hBbGwoKTsKICB9CgogIHByaXZhdGUgaGFuZGxlQ3VzdG9tSXRlbVJlbW92ZShkYXRhSWQ6IHN0cmluZywgaXRlbUlkOiBzdHJpbmcpOiB2b2lkIHsKICAgIHRoaXMuZGF0YSA9IHJlbW92ZUN1c3RvbUl0ZW0odGhpcy5kYXRhLCBkYXRhSWQsIGl0ZW1JZCk7CiAgICB0aGlzLmFmdGVyRGF0YUNoYW5nZSgpOwogIH0KCiAgLyoqIOS7u+aEj+aVsOaNruWPmOabtOWQjueahOe7n+S4gOWKqOS9nO+8mumAmuefpSArIOmYsuaKluS/neWtmCArIOagoemqjCAqLwogIHByaXZhdGUgYWZ0ZXJEYXRhQ2hhbmdlKCk6IHZvaWQgewogICAgdGhpcy5wcmV2aWV3LnNldFN0YXRlKHRoaXMuZGF0YSk7CiAgICB0aGlzLnZhbGlkYXRpb24ubm90aWZ5KHRoaXMuZGF0YSk7CiAgICB0aGlzLnN0b3JhZ2Uuc2NoZWR1bGUodGhpcy5kYXRhKTsKICB9CgogIC8qIC0tLS0tLS0tLS0tLS0tLS0gSGFuZGxlcnM6IFRvcEJhciAtLS0tLS0tLS0tLS0tLS0tICovCgogIHByaXZhdGUgaGFuZGxlU2F2ZU5vdygpOiB2b2lkIHsKICAgIGNvbnN0IG9rID0gdGhpcy5zdG9yYWdlLnNhdmVOb3codGhpcy5kYXRhKTsKICAgIGlmIChvaykgdGhpcy50b2FzdC5zaG93KCflt7Lkv53lrZgnLCAnc3VjY2VzcycpOwogIH0KCiAgcHJpdmF0ZSBoYW5kbGVFeHBvcnRKc29uKCk6IHZvaWQgewogICAgY29uc3QgdGV4dCA9IHRoaXMuc3RvcmFnZS5leHBvcnRKc29uKHRoaXMuZGF0YSk7CiAgICBjb25zdCBuYW1lID0gKHRoaXMuZGF0YS5uYW1lIHx8ICfmnKrlkb3lkI0nKS5yZXBsYWNlKC9bXFwvOio/Ijw+fFxzXSsvZywgJ18nKTsKICAgIGRvd25sb2FkVGV4dCh0ZXh0LCBgcmVzdW1lXyR7bmFtZX1fYmFja3VwLmpzb25gKTsKICAgIHRoaXMudG9hc3Quc2hvdygn5bey5a+85Ye6IEpTT04g5aSH5Lu9JywgJ3N1Y2Nlc3MnKTsKICB9CgogIHByaXZhdGUgYXN5bmMgaGFuZGxlSW1wb3J0SnNvbihmaWxlOiBGaWxlKTogUHJvbWlzZTx2b2lkPiB7CiAgICBjb25zdCB0ZXh0ID0gYXdhaXQgZmlsZS50ZXh0KCk7CiAgICBjb25zdCBuZXh0ID0gdGhpcy5zdG9yYWdlLmltcG9ydEpzb24odGV4dCk7CiAgICBpZiAobmV4dCkgewogICAgICB0aGlzLmRhdGEgPSBuZXh0OwogICAgICB0aGlzLnB1c2hBbGwoKTsKICAgICAgdGhpcy50b2FzdC5zaG93KCflt7Llr7zlhaUgSlNPTiDlpIfku70nLCAnc3VjY2VzcycpOwogICAgfQogIH0KCiAgLyoqCiAgICog5a+85YWlIGRvY3gg566A5Y6G5bm25ZCI5bm25Yiw5b2T5YmN5pWw5o2uCiAgICogLSDmj5DnpLrnlKjmiLflsIbopobnm5blvZPliY3lhoXlrrnvvIjluKblj6/ot7Pov4fnmoTkuozmrKHnoa7orqTvvIkKICAgKiAtIOino+aekOi/h+eoi+W8guatpei/m+ihjO+8jFVJIOaPkOekuuWKoOi9veeKtuaAgQogICAqIC0g5aSx6LSl5pe25Zue5rua5Yiw5Y6f5pWw5o2uICsg6ZSZ6K+v5o+Q56S6CiAgICovCiAgcHJpdmF0ZSBhc3luYyBoYW5kbGVJbXBvcnREb2N4KGZpbGU6IEZpbGUpOiBQcm9taXNlPHZvaWQ+IHsKICAgIC8vIOW9k+WJjeW3suaciemdnuepuuaVsOaNruaXtumcgOimgeS6jOasoeehruiupO+8iOmBv+WFjeivr+imhueblu+8iQogICAgY29uc3QgaGFzQ29udGVudCA9IEJvb2xlYW4oCiAgICAgIHRoaXMuZGF0YS5uYW1lLnRyaW0oKSB8fAogICAgICAgIHRoaXMuZGF0YS5lbWFpbC50cmltKCkgfHwKICAgICAgICB0aGlzLmRhdGEuZXhwZXJpZW5jZS5sZW5ndGggPiAwIHx8CiAgICAgICAgdGhpcy5kYXRhLmVkdWNhdGlvbi5sZW5ndGggPiAwIHx8CiAgICAgICAgdGhpcy5kYXRhLnByb2plY3RzLmxlbmd0aCA+IDAKICAgICk7CiAgICBpZiAoaGFzQ29udGVudCkgewogICAgICBjb25zdCBvayA9IHdpbmRvdy5jb25maXJtKAogICAgICAgIGDlsIbop6PmnpDjgIwke2ZpbGUubmFtZX3jgI3lubblkIjlubbliLDlvZPliY3nroDljobjgIJcblxu5rOo5oSP77ya6K+G5Yir5Yiw55qE6Z2e56m65a2X5q615Lya6KaG55uW5b2T5YmN5YaF5a6577yM6K+G5Yir5LiN5Yiw55qE5YaF5a655Lya5L+d55WZ44CC5bu66K6u5YWI5a+85Ye6IEpTT04g5aSH5Lu944CCXG5cbue7p+e7re+8n2AKICAgICAgKTsKICAgICAgaWYgKCFvaykgcmV0dXJuOwogICAgfQogICAgdGhpcy50b2FzdC5zaG93KCfmraPlnKjop6PmnpDnroDljobigKYnLCAnaW5mbycsIDApOwogICAgdHJ5IHsKICAgICAgY29uc3QgeyBkYXRhLCBwYXJzZWQgfSA9IGF3YWl0IGltcG9ydERvY3hJbnRvKHRoaXMuZGF0YSwgZmlsZSk7CiAgICAgIHRoaXMuZGF0YSA9IGRhdGE7CiAgICAgIC8vIOeri+WNs+iQveebmO+8mumBv+WFjeWQjue7reaTjeS9nOWGsueqgeaXtuS4ouWkseWvvOWFpee7k+aenAogICAgICB0aGlzLnN0b3JhZ2Uuc2F2ZU5vdyh0aGlzLmRhdGEpOwogICAgICB0aGlzLnB1c2hBbGwoKTsKICAgICAgdGhpcy50b2FzdC5zaG93KAogICAgICAgIGDlt7Llr7zlhaUgRE9DWO+8iOWnk+WQjSAke3BhcnNlZC5uYW1lID8gJ+KckycgOiAn4pyXJ30gwrcg6YKu566xICR7cGFyc2VkLmVtYWlsID8gJ+KckycgOiAn4pyXJ30gwrcg5pWZ6IKyICR7cGFyc2VkLmVkdWNhdGlvbj8ubGVuZ3RoID8/IDB9IMK3IOW3peS9nCAke3BhcnNlZC5leHBlcmllbmNlPy5sZW5ndGggPz8gMH3vvIlgLAogICAgICAgICdzdWNjZXNzJywKICAgICAgICAzNTAwCiAgICAgICk7CiAgICB9IGNhdGNoIChlcnIpIHsKICAgICAgLy8gZXNsaW50LWRpc2FibGUtbmV4dC1saW5lIG5vLWNvbnNvbGUKICAgICAgY29uc29sZS5lcnJvcihlcnIpOwogICAgICB0aGlzLnRvYXN0LnNob3coCiAgICAgICAgYERPQ1gg6Kej5p6Q5aSx6LSl77yaJHsoZXJyIGFzIEVycm9yKS5tZXNzYWdlID8/ICfmnKrnn6XplJnor68nfWAsCiAgICAgICAgJ2Vycm9yJywKICAgICAgICA0MDAwCiAgICAgICk7CiAgICB9CiAgfQoKICBwcml2YXRlIGhhbmRsZUNsZWFyKCk6IHZvaWQgewogICAgaWYgKCF3aW5kb3cuY29uZmlybSgn56Gu5a6a5riF56m65YWo6YOo5pWw5o2u77yf5q2k5pON5L2c5LiN5Y+v5pKk6ZSA44CCJykpIHJldHVybjsKICAgIHRoaXMuZGF0YSA9IHRoaXMuc3RvcmFnZS5jbGVhcigpOwogICAgdGhpcy5wdXNoQWxsKCk7CiAgfQoKICAvKiAtLS0tLS0tLS0tLS0tLS0tIEhhbmRsZXJzOiBUZW1wbGF0ZSBQaWNrZXIgLS0tLS0tLS0tLS0tLS0tLSAqLwoKICBwcml2YXRlIG9wZW5UZW1wbGF0ZVBpY2tlcigpOiB2b2lkIHsKICAgIHRoaXMucm9vdC5jbGFzc0xpc3QuYWRkKCdyYi1tb2RhbC1vcGVuJywgJ3JiLW1vZGFsLXRwbCcpOwogIH0KCiAgcHJpdmF0ZSBjbG9zZVRlbXBsYXRlUGlja2VyKCk6IHZvaWQgewogICAgdGhpcy5yb290LmNsYXNzTGlzdC5yZW1vdmUoJ3JiLW1vZGFsLW9wZW4nLCAncmItbW9kYWwtdHBsJyk7CiAgfQoKICBwcml2YXRlIGhhbmRsZVBpY2tUZW1wbGF0ZShpZDogVGVtcGxhdGVJZCk6IHZvaWQgewogICAgaWYgKHRoaXMuZGF0YS50ZW1wbGF0ZSA9PT0gaWQpIHsKICAgICAgdGhpcy5jbG9zZVRlbXBsYXRlUGlja2VyKCk7CiAgICAgIHJldHVybjsKICAgIH0KICAgIHRoaXMuZGF0YSA9IHRvdWNoTWV0YSh7IC4uLnRoaXMuZGF0YSwgdGVtcGxhdGU6IGlkIH0pOwogICAgdGhpcy5hZnRlckRhdGFDaGFuZ2UoKTsKICAgIHRoaXMudGVtcGxhdGVQaWNrZXIuc2V0U3RhdGUoeyBjdXJyZW50OiBpZCB9KTsKICAgIHRoaXMuY2xvc2VUZW1wbGF0ZVBpY2tlcigpOwogICAgdGhpcy50b2FzdC5zaG93KGDlt7LliIfmjaLliLDjgIwke3RoaXMuZGF0YS50ZW1wbGF0ZX3jgI1gLCAnc3VjY2VzcycsIDE1MDApOwogIH0KCiAgLyogLS0tLS0tLS0tLS0tLS0tLSBIYW5kbGVyczogRXhwb3J0IC0tLS0tLS0tLS0tLS0tLS0gKi8KCiAgcHJpdmF0ZSBvcGVuRXhwb3J0RGlhbG9nKCk6IHZvaWQgewogICAgdGhpcy5yb290LmNsYXNzTGlzdC5hZGQoJ3JiLW1vZGFsLW9wZW4nLCAncmItbW9kYWwtZXhwb3J0Jyk7CiAgfQoKICBwcml2YXRlIGNsb3NlRXhwb3J0RGlhbG9nKCk6IHZvaWQgewogICAgdGhpcy5yb290LmNsYXNzTGlzdC5yZW1vdmUoJ3JiLW1vZGFsLW9wZW4nLCAncmItbW9kYWwtZXhwb3J0Jyk7CiAgfQoKICBwcml2YXRlIGFzeW5jIGhhbmRsZUV4cG9ydChmb3JtYXQ6IEV4cG9ydEZvcm1hdCk6IFByb21pc2U8dm9pZD4gewogICAgLy8g6Zi75aGe5oCn5qCh6aqMCiAgICBjb25zdCB2ID0gdmFsaWRhdGVGb3JFeHBvcnQodGhpcy5kYXRhKTsKICAgIGlmICghdi52YWxpZCkgewogICAgICBjb25zdCBmaXJzdDogVmFsaWRhdGlvbkVycm9yIHwgdW5kZWZpbmVkID0gdi5lcnJvcnNbMF07CiAgICAgIGNvbnN0IGZpZWxkID0gZmlyc3Q/LmZpZWxkOwogICAgICBpZiAoZmllbGQgPT09ICduYW1lJyB8fCBmaWVsZCA9PT0gJ2VtYWlsJykgewogICAgICAgIHRoaXMuZWRpdG9yLmZvY3VzRmllbGQoZmllbGQgYXMgc3RyaW5nKTsKICAgICAgICB0aGlzLnRvYXN0LnNob3coJ+ivt+WFiOWhq+WGmeWnk+WQjeWSjOmCrueusScsICdlcnJvcicpOwogICAgICB9IGVsc2UgewogICAgICAgIHRoaXMudG9hc3Quc2hvdygn6K+35L+u5aSN5qCh6aqM6ZSZ6K+vJywgJ2Vycm9yJyk7CiAgICAgIH0KICAgICAgdGhpcy5jbG9zZUV4cG9ydERpYWxvZygpOwogICAgICByZXR1cm47CiAgICB9CgogICAgdGhpcy5leHBvcnREaWFsb2cuc2V0QnVzeShmb3JtYXQsIHRydWUpOwogICAgdHJ5IHsKICAgICAgY29uc3Qgc3RyYXRlZ3kgPSBnZXRTdHJhdGVneShmb3JtYXQpOwogICAgICBhd2FpdCBzdHJhdGVneS5ydW4oewogICAgICAgIGRhdGE6IHRoaXMuZGF0YSwKICAgICAgICBwcmV2aWV3RWw6IHRoaXMucHJldmlldy5nZXRQcmV2aWV3RWxlbWVudCgpIGFzIEhUTUxFbGVtZW50LAogICAgICAgIGJhc2VDc3M6IHRoaXMuYmFzZUNzcywKICAgICAgICB0ZW1wbGF0ZUNzczogdGhpcy50ZW1wbGF0ZUNzcwogICAgICB9KTsKICAgICAgdGhpcy50b2FzdC5zaG93KGDlt7Llr7zlh7ogJHtidWlsZEZpbGVuYW1lKHRoaXMuZGF0YSwgZm9ybWF0KX1gLCAnc3VjY2VzcycsIDI0MDApOwogICAgfSBjYXRjaCAoZXJyKSB7CiAgICAgIC8vIGVzbGludC1kaXNhYmxlLW5leHQtbGluZSBuby1jb25zb2xlCiAgICAgIGNvbnNvbGUuZXJyb3IoZXJyKTsKICAgICAgdGhpcy50b2FzdC5zaG93KGAke2Zvcm1hdH0g5a+85Ye65aSx6LSl77yaJHsoZXJyIGFzIEVycm9yKS5tZXNzYWdlID8/ICfmnKrnn6XplJnor68nfWAsICdlcnJvcicsIDMwMDApOwogICAgfSBmaW5hbGx5IHsKICAgICAgdGhpcy5leHBvcnREaWFsb2cuc2V0QnVzeShudWxsLCBmYWxzZSk7CiAgICAgIHRoaXMuY2xvc2VFeHBvcnREaWFsb2coKTsKICAgIH0KICB9CgogIC8qIC0tLS0tLS0tLS0tLS0tLS0gSGFuZGxlcnM6IEtleWJvYXJkIC0tLS0tLS0tLS0tLS0tLS0gKi8KCiAgcHJpdmF0ZSBoYW5kbGVFc2NhcGUoKTogdm9pZCB7CiAgICBpZiAodGhpcy5yb290LmNsYXNzTGlzdC5jb250YWlucygncmItbW9kYWwtZXhwb3J0JykpIHRoaXMuY2xvc2VFeHBvcnREaWFsb2coKTsKICAgIGVsc2UgaWYgKHRoaXMucm9vdC5jbGFzc0xpc3QuY29udGFpbnMoJ3JiLW1vZGFsLW9wZW4nKSkgdGhpcy5jbG9zZVRlbXBsYXRlUGlja2VyKCk7CiAgfQp9Cg==
+/**
+ * 应用主控制器
+ * 单一职责：组装各 View / Service，编排数据流
+ * - View 不持有数据；Controller 持有 ResumeData 单例
+ * - 任何字段变更：Controller 更新数据 → 通知相关 View + 触发自动保存 + 触发校验
+ * - 导出 / 模板切换 / 导入等横向动作由 Controller 统一协调
+ */
+
+import { bus } from '@/core/EventBus';
+import { EVENTS, type EventName } from '@/types/events';
+import type {
+  ResumeData,
+  FieldPath,
+  ArrayFieldPath,
+  TemplateId,
+  ValidationError,
+  ValidationResult,
+  ExportFormat,
+  SectionPreset,
+  CustomShape
+} from '@/types/resume';
+import {
+  setField,
+  setArrayItemField,
+  addArrayItem,
+  removeArrayItem,
+  ItemFactories,
+  touchMeta,
+  renameSection,
+  toggleSection,
+  moveSection,
+  moveSectionTo,
+  removeSection,
+  addCustomSection,
+  setCustomSectionContent,
+  addCustomItem,
+  setCustomItemField,
+  removeCustomItem,
+  addCustomBasic,
+  removeCustomBasic,
+  setCustomBasicLabel,
+  setCustomBasicValue,
+  moveCustomBasic
+} from '@/models/ResumeData';
+import { validateForExport } from '@/models/Validator';
+
+import { StorageService } from '@/services/StorageService';
+import { ValidationService } from '@/services/ValidationService';
+import { KeyboardService } from '@/services/KeyboardService';
+import { getStrategy, buildFilename } from '@/services/ExportService';
+import { importDocxInto } from '@/services/importers';
+
+import { EditorView } from '@/views/EditorView';
+import { PreviewView } from '@/views/PreviewView';
+import { TemplatePickerView } from '@/views/TemplatePickerView';
+import { ExportDialogView } from '@/views/ExportDialogView';
+import { ToastView } from '@/views/ToastView';
+import { TopBarView, type TopBarState } from '@/views/TopBarView';
+import { ValidationBarView } from '@/views/ValidationBarView';
+
+import { el } from '@/utils/dom';
+import { downloadText } from '@/utils';
+
+export class AppController {
+  private data: ResumeData;
+  private readonly storage: StorageService;
+  private readonly validation: ValidationService;
+  private readonly keyboard: KeyboardService;
+
+  private editor!: EditorView;
+  private preview!: PreviewView;
+  private templatePicker!: TemplatePickerView;
+  private exportDialog!: ExportDialogView;
+  private toast!: ToastView;
+  private topBar!: TopBarView;
+  private validationBar!: ValidationBarView;
+
+  private root: HTMLElement;
+  private baseCss: string;
+  private templateCss: string;
+
+  constructor(root: HTMLElement, baseCss: string, templateCss: string) {
+    this.root = root;
+    this.baseCss = baseCss;
+    this.templateCss = templateCss;
+
+    this.storage = new StorageService();
+    this.validation = new ValidationService();
+    this.keyboard = new KeyboardService();
+
+    this.data = this.storage.load();
+  }
+
+  start(): void {
+    this.layout();
+    this.bindServices();
+    this.keyboard.start();
+
+    // 初次推送
+    this.pushAll();
+  }
+
+  /* ---------------- Layout ---------------- */
+
+  private layout(): void {
+    this.root.innerHTML = '';
+    this.root.classList.add('rb-app');
+
+    // 顶部
+    const topbar = el('header', { className: 'rb-topbar' });
+    this.root.appendChild(topbar);
+    this.topBar = new TopBarView({
+      onSaveNow: () => this.handleSaveNow(),
+      onExportJson: () => this.handleExportJson(),
+      onImportJson: (file) => this.handleImportJson(file),
+      onImportDocx: (file) => this.handleImportDocx(file),
+      onClear: () => this.handleClear(),
+      onOpenTemplate: () => this.openTemplatePicker(),
+      onOpenExport: () => this.openExportDialog()
+    });
+    this.topBar.mount(topbar);
+
+    // 校验条
+    const vbar = el('div', { className: 'rb-validationbar-wrap' });
+    this.root.appendChild(vbar);
+    this.validationBar = new ValidationBarView();
+    this.validationBar.mount(vbar);
+
+    // 主工作区
+    const main = el('main', { className: 'rb-main' });
+    const editorPane = el('section', { className: 'rb-pane rb-pane--editor' });
+    const previewPane = el('section', { className: 'rb-pane rb-pane--preview' });
+    main.append(editorPane, previewPane);
+    this.root.appendChild(main);
+
+    this.editor = new EditorView({
+      onField: (path, value) => this.handleFieldChange(path, value),
+      onArrayField: (path, idx, key, value) => this.handleArrayFieldChange(path, idx, key, value),
+      onAdd: (path) => this.handleAdd(path),
+      onRemove: (path, idx) => this.handleRemove(path, idx),
+      onCollapse: (_path, _collapsed) => { /* 视图内已维护状态 */ },
+      onRenameSection: (id, title) => this.handleRenameSection(id, title),
+      onToggleSection: (id, enabled) => this.handleToggleSection(id, enabled),
+      onMoveSection: (id, dir) => this.handleMoveSection(id, dir),
+      onMoveSectionTo: (id, targetIdx) => this.handleMoveSectionTo(id, targetIdx),
+      onRemoveSection: (id) => this.handleRemoveSection(id),
+      onAddSection: (input) => this.handleAddSection(input),
+      onCustomSectionContent: (dataId, content) => this.handleCustomContent(dataId, content),
+      onCustomItemField: (dataId, itemId, key, value) => this.handleCustomItemField(dataId, itemId, key, value),
+      onCustomItemAdd: (dataId) => this.handleCustomItemAdd(dataId),
+      onCustomItemRemove: (dataId, itemId) => this.handleCustomItemRemove(dataId, itemId),
+      onAddCustomBasic: (label) => this.handleAddCustomBasic(label),
+      onRemoveCustomBasic: (id) => this.handleRemoveCustomBasic(id),
+      onCustomBasicLabel: (id, label) => this.handleCustomBasicLabel(id, label),
+      onCustomBasicValue: (id, value) => this.handleCustomBasicValue(id, value),
+      onMoveCustomBasic: (id, dir) => this.handleMoveCustomBasic(id, dir)
+    });
+    this.editor.mount(editorPane);
+
+    this.preview = new PreviewView();
+    this.preview.mount(previewPane);
+
+    // 模态挂载点（每个 modal 独立挂载，避免互相 clear）
+    const tplHost = el('div', { className: 'rb-modals rb-modals--tpl' });
+    const expHost = el('div', { className: 'rb-modals rb-modals--exp' });
+    this.root.append(tplHost, expHost);
+    this.templatePicker = new TemplatePickerView({
+      onPick: (id) => this.handlePickTemplate(id),
+      onClose: () => this.closeTemplatePicker()
+    });
+    this.templatePicker.mount(tplHost);
+    this.exportDialog = new ExportDialogView({
+      onExport: (f) => this.handleExport(f),
+      onClose: () => this.closeExportDialog()
+    });
+    this.exportDialog.mount(expHost);
+
+    // Toast 挂载点
+    const toastHost = el('div', { className: 'rb-toast-wrap' });
+    this.root.appendChild(toastHost);
+    this.toast = new ToastView();
+    this.toast.mount(toastHost);
+  }
+
+  /* ---------------- Service Bindings ---------------- */
+
+  private bindServices(): void {
+    bus.on(EVENTS.TEMPLATE_PICKER_OPEN, () => this.openTemplatePicker());
+    bus.on(EVENTS.TEMPLATE_PICKER_CLOSE, () => this.closeTemplatePicker());
+    bus.on(EVENTS.EXPORT_OPEN, () => this.openExportDialog());
+    bus.on(EVENTS.EXPORT_CLOSE, () => this.closeExportDialog());
+    bus.on(EVENTS.AUTOSAVE_DONE, () => this.refreshTopBar());
+    bus.on(EVENTS.STORAGE_DEGRADED, () => this.refreshTopBar());
+    bus.on(EVENTS.STORAGE_OK, () => this.refreshTopBar());
+    bus.on(EVENTS.VALIDATION_UPDATED, (result: ValidationResult) => this.validationBar.setState(result));
+    bus.on('shortcut:save' as EventName, () => this.handleSaveNow());
+    bus.on('shortcut:template:1' as EventName, () => this.handlePickTemplate('minimal'));
+    bus.on('shortcut:template:2' as EventName, () => this.handlePickTemplate('sidebar'));
+    bus.on('shortcut:template:3' as EventName, () => this.handlePickTemplate('compact'));
+    bus.on('shortcut:escape' as EventName, () => this.handleEscape());
+  }
+
+  /* ---------------- Push state to views ---------------- */
+
+  private pushAll(): void {
+    this.editor.setState(this.data);
+    this.preview.setState(this.data);
+    this.templatePicker.setState({ current: this.data.template });
+    this.validation.notify(this.data);
+    this.refreshTopBar();
+  }
+
+  private refreshTopBar(): void {
+    const status = this.storage.getStatus();
+    const s: TopBarState = {
+      savedText: this.storage.getLastSavedText(),
+      sizeText: this.storage.getSizeText(),
+      ratio: status.ratio,
+      degraded: status.degraded
+    };
+    this.topBar.setState(s);
+  }
+
+  /* ---------------- Handlers: Editor ---------------- */
+
+  private handleFieldChange(path: FieldPath, value: string): void {
+    this.data = setField(this.data, path, value);
+    this.afterDataChange();
+  }
+
+  private handleArrayFieldChange(
+    path: ArrayFieldPath,
+    index: number,
+    key: string,
+    value: string
+  ): void {
+    this.data = setArrayItemField(this.data, path, index, key, value);
+    this.afterDataChange();
+  }
+
+  private handleAdd(path: ArrayFieldPath): void {
+    const factory = ItemFactories[path];
+    this.data = addArrayItem(this.data, path, factory);
+    this.afterDataChange();
+    this.pushAll();
+  }
+
+  private handleRemove(path: ArrayFieldPath, index: number): void {
+    this.data = removeArrayItem(this.data, path, index);
+    this.afterDataChange();
+    this.pushAll();
+    this.toast.show('已删除一条', 'info', 1500);
+  }
+
+  /* ---------------- Handlers: Sections ---------------- */
+
+  private handleRenameSection(id: string, title: string): void {
+    const t = title.trim();
+    if (!t) return; // 空标题：忽略（保留原值）
+    this.data = renameSection(this.data, id, t);
+    this.afterDataChange();
+  }
+
+  private handleToggleSection(id: string, enabled?: boolean): void {
+    this.data = toggleSection(this.data, id, enabled);
+    // toggle 会改变 card 视觉态（badge / 虚线 / 删除线），需要 editor 重渲染
+    this.afterDataChange();
+    this.editor.setState(this.data);
+  }
+
+  private handleMoveSection(id: string, dir: 'up' | 'down'): void {
+    this.data = moveSection(this.data, id, dir);
+    this.afterDataChange();
+    this.pushAll();
+  }
+
+  private handleMoveSectionTo(id: string, targetIdx: number): void {
+    this.data = moveSectionTo(this.data, id, targetIdx);
+    this.afterDataChange();
+    this.pushAll();
+  }
+
+  private handleRemoveSection(id: string): void {
+    this.data = removeSection(this.data, id);
+    this.afterDataChange();
+    this.pushAll();
+    this.toast.show('已删除段落', 'info', 1500);
+  }
+
+  private handleAddSection(input: SectionPreset | { title: string; shape: CustomShape }): void {
+    if ('key' in input) {
+      // 预设：title/shape 直接用预设
+      this.data = addCustomSection(this.data, {
+        title: input.title,
+        shape: input.shape,
+        initialItems: input.shape === 'list' ? 1 : 0
+      });
+    } else {
+      this.data = addCustomSection(this.data, {
+        title: input.title,
+        shape: input.shape,
+        initialItems: input.shape === 'list' ? 1 : 0
+      });
+    }
+    this.afterDataChange();
+    this.pushAll();
+  }
+
+  private handleCustomContent(dataId: string, content: string): void {
+    this.data = setCustomSectionContent(this.data, dataId, content);
+    this.afterDataChange();
+  }
+
+  private handleCustomItemField(dataId: string, itemId: string, key: 'title' | 'desc', value: string): void {
+    this.data = setCustomItemField(this.data, dataId, itemId, key, value);
+    this.afterDataChange();
+  }
+
+  private handleCustomItemAdd(dataId: string): void {
+    this.data = addCustomItem(this.data, dataId);
+    this.afterDataChange();
+    this.pushAll();
+  }
+
+  private handleCustomItemRemove(dataId: string, itemId: string): void {
+    this.data = removeCustomItem(this.data, dataId, itemId);
+    this.afterDataChange();
+  }
+
+  /* ---------------- Handlers: Custom Basics ---------------- */
+
+  private handleAddCustomBasic(label: string): void {
+    // label 由 EditorView 的内嵌 dialog 传入（避开 Electron 默认禁用 window.prompt 的坑）
+    const t = (label ?? '').trim();
+    if (!t) return;
+    this.data = addCustomBasic(this.data, t);
+    this.afterDataChange();
+    this.pushAll();
+    this.toast.show('已添加自定义字段', 'success', 1500);
+  }
+
+  private handleRemoveCustomBasic(id: string): void {
+    // 确认逻辑放在 EditorView.showConfirm（避开 Electron 默认禁用 window.confirm 的坑）
+    const f = this.data.customBasics.find((b) => b.id === id);
+    if (!f) return;
+    this.data = removeCustomBasic(this.data, id);
+    this.afterDataChange();
+  }
+
+  private handleCustomBasicLabel(id: string, label: string): void {
+    this.data = setCustomBasicLabel(this.data, id, label);
+    this.afterDataChange();
+  }
+
+  private handleCustomBasicValue(id: string, value: string): void {
+    this.data = setCustomBasicValue(this.data, id, value);
+    this.afterDataChange();
+  }
+
+  private handleMoveCustomBasic(id: string, dir: 'up' | 'down'): void {
+    this.data = moveCustomBasic(this.data, id, dir);
+    this.afterDataChange();
+  }
+
+  /** 任意数据变更后的统一动作：通知 + 防抖保存 + 校验 */
+  private afterDataChange(): void {
+    this.preview.setState(this.data);
+    this.validation.notify(this.data);
+    this.storage.schedule(this.data);
+  }
+
+  /* ---------------- Handlers: TopBar ---------------- */
+
+  private handleSaveNow(): void {
+    const ok = this.storage.saveNow(this.data);
+    if (ok) this.toast.show('已保存', 'success');
+  }
+
+  private handleExportJson(): void {
+    const text = this.storage.exportJson(this.data);
+    const name = (this.data.name || '未命名').replace(/[\\/:*?"<>|\s]+/g, '_');
+    downloadText(text, `resume_${name}_backup.json`);
+    this.toast.show('已导出 JSON 备份', 'success');
+  }
+
+  private async handleImportJson(file: File): Promise<void> {
+    const text = await file.text();
+    const next = this.storage.importJson(text);
+    if (next) {
+      this.data = next;
+      this.pushAll();
+      this.toast.show('已导入 JSON 备份', 'success');
+    }
+  }
+
+  /**
+   * 导入 docx 简历并合并到当前数据
+   * - 提示用户将覆盖当前内容（带可跳过的二次确认）
+   * - 解析过程异步进行，UI 提示加载状态
+   * - 失败时回滚到原数据 + 错误提示
+   */
+  private async handleImportDocx(file: File): Promise<void> {
+    // 当前已有非空数据时需要二次确认（避免误覆盖）
+    const hasContent = Boolean(
+      this.data.name.trim() ||
+        this.data.email.trim() ||
+        this.data.experience.length > 0 ||
+        this.data.education.length > 0 ||
+        this.data.projects.length > 0
+    );
+    if (hasContent) {
+      const ok = window.confirm(
+        `将解析「${file.name}」并合并到当前简历。\n\n注意：识别到的非空字段会覆盖当前内容，识别不到的内容会保留。建议先导出 JSON 备份。\n\n继续？`
+      );
+      if (!ok) return;
+    }
+    this.toast.show('正在解析简历…', 'info', 0);
+    try {
+      const { data, parsed } = await importDocxInto(this.data, file);
+      this.data = data;
+      // 立即落盘：避免后续操作冲突时丢失导入结果
+      this.storage.saveNow(this.data);
+      this.pushAll();
+      this.toast.show(
+        `已导入 DOCX（姓名 ${parsed.name ? '✓' : '✗'} · 邮箱 ${parsed.email ? '✓' : '✗'} · 教育 ${parsed.education?.length ?? 0} · 工作 ${parsed.experience?.length ?? 0}）`,
+        'success',
+        3500
+      );
+    } catch (err) {
+      // eslint-disable-next-line no-console
+      console.error(err);
+      this.toast.show(
+        `DOCX 解析失败：${(err as Error).message ?? '未知错误'}`,
+        'error',
+        4000
+      );
+    }
+  }
+
+  private handleClear(): void {
+    if (!window.confirm('确定清空全部数据？此操作不可撤销。')) return;
+    this.data = this.storage.clear();
+    this.pushAll();
+  }
+
+  /* ---------------- Handlers: Template Picker ---------------- */
+
+  private openTemplatePicker(): void {
+    this.root.classList.add('rb-modal-open', 'rb-modal-tpl');
+  }
+
+  private closeTemplatePicker(): void {
+    this.root.classList.remove('rb-modal-open', 'rb-modal-tpl');
+  }
+
+  private handlePickTemplate(id: TemplateId): void {
+    if (this.data.template === id) {
+      this.closeTemplatePicker();
+      return;
+    }
+    this.data = touchMeta({ ...this.data, template: id });
+    this.afterDataChange();
+    this.templatePicker.setState({ current: id });
+    this.closeTemplatePicker();
+    this.toast.show(`已切换到「${this.data.template}」`, 'success', 1500);
+  }
+
+  /* ---------------- Handlers: Export ---------------- */
+
+  private openExportDialog(): void {
+    this.root.classList.add('rb-modal-open', 'rb-modal-export');
+  }
+
+  private closeExportDialog(): void {
+    this.root.classList.remove('rb-modal-open', 'rb-modal-export');
+  }
+
+  private async handleExport(format: ExportFormat): Promise<void> {
+    // 阻塞性校验
+    const v = validateForExport(this.data);
+    if (!v.valid) {
+      const first: ValidationError | undefined = v.errors[0];
+      const field = first?.field;
+      if (field === 'name' || field === 'email') {
+        this.editor.focusField(field as string);
+        this.toast.show('请先填写姓名和邮箱', 'error');
+      } else {
+        this.toast.show('请修复校验错误', 'error');
+      }
+      this.closeExportDialog();
+      return;
+    }
+
+    this.exportDialog.setBusy(format, true);
+    try {
+      const strategy = getStrategy(format);
+      await strategy.run({
+        data: this.data,
+        previewEl: this.preview.getPreviewElement() as HTMLElement,
+        baseCss: this.baseCss,
+        templateCss: this.templateCss
+      });
+      this.toast.show(`已导出 ${buildFilename(this.data, format)}`, 'success', 2400);
+    } catch (err) {
+      // eslint-disable-next-line no-console
+      console.error(err);
+      this.toast.show(`${format} 导出失败：${(err as Error).message ?? '未知错误'}`, 'error', 3000);
+    } finally {
+      this.exportDialog.setBusy(null, false);
+      this.closeExportDialog();
+    }
+  }
+
+  /* ---------------- Handlers: Keyboard ---------------- */
+
+  private handleEscape(): void {
+    if (this.root.classList.contains('rb-modal-export')) this.closeExportDialog();
+    else if (this.root.classList.contains('rb-modal-open')) this.closeTemplatePicker();
+  }
+}
