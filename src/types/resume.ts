@@ -1,1 +1,227 @@
-LyoqCiAqIOeugOWOhuaVsOaNruaooeWei+exu+Wei+WumuS5iQogKiDljZXkuIDmlbDmja7mupDvvJrmiYDmnIkgVUkg54q25oCB6YO95rS+55Sf6IeqIFJlc3VtZURhdGEKICovCgovKiog5pWZ6IKy57uP5Y6G5Y2V5p2hICovCmV4cG9ydCBpbnRlcmZhY2UgRWR1Y2F0aW9uSXRlbSB7CiAgc2Nob29sOiBzdHJpbmc7CiAgZGVncmVlOiBzdHJpbmc7CiAgcmFuZ2U6IHN0cmluZzsKfQoKLyoqIOWunuS5oC/lt6XkvZznu4/ljobljZXmnaEgKi8KZXhwb3J0IGludGVyZmFjZSBFeHBlcmllbmNlSXRlbSB7CiAgY29tcGFueTogc3RyaW5nOwogIHJvbGU6IHN0cmluZzsKICByYW5nZTogc3RyaW5nOwogIGRlc2M6IHN0cmluZzsKfQoKLyoqIOmhueebrue7j+WOhuWNleadoSAqLwpleHBvcnQgaW50ZXJmYWNlIFByb2plY3RJdGVtIHsKICBuYW1lOiBzdHJpbmc7CiAgdGVjaDogc3RyaW5nOwogIGRlc2M6IHN0cmluZzsKfQoKLyoqIOaooeadv+agh+ivhiAqLwpleHBvcnQgdHlwZSBUZW1wbGF0ZUlkID0gJ21pbmltYWwnIHwgJ3NpZGViYXInIHwgJ2NvbXBhY3QnOwoKLyoqIOauteiQveexu+WeiyAqLwpleHBvcnQgdHlwZSBTZWN0aW9uS2luZCA9CiAgfCAnZWR1Y2F0aW9uJyAgICAvLyDmlZnogrLnu4/ljobvvIjmlbDnu4TvvIkKICB8ICdleHBlcmllbmNlJyAgIC8vIOWunuS5oC/lt6XkvZznu4/ljobvvIjmlbDnu4TvvIkKICB8ICdwcm9qZWN0cycgICAgIC8vIOmhueebrue7j+WOhu+8iOaVsOe7hO+8iQogIHwgJ3NraWxscycgICAgICAgLy8g5oqA6IO977yI5paH5pys77yJCiAgfCAnYXdhcmRzJyAgICAgICAvLyDlpZbpobnvvIjmlofmnKzvvIkKICB8ICdhYm91dCcgICAgICAgIC8vIOiHquaIkeivhOS7t++8iOaWh+acrO+8iQogIHwgJ2N1c3RvbSc7ICAgICAgLy8g55So5oi36Ieq5a6a5LmJ5q616JC977yI5paH5pysICsg5aSa5p2h55uu77yJCgovKiog6Ieq5a6a5LmJ5q616JC955qE5Y2V5p2h77yI55So5LqOIGxpc3Qg5qih5byP77yJICovCmV4cG9ydCBpbnRlcmZhY2UgQ3VzdG9tSXRlbSB7CiAgaWQ6IHN0cmluZzsKICAvKiog5qCH6aKY77yI5aaCIuiuuuaWh+agh+mimCLjgIEi6K+t6KiAIu+8iSAqLwogIHRpdGxlOiBzdHJpbmc7CiAgLyoqIOaPj+i/sCAvIOWJr+agh+mimCAvIOiMg+WbtOetiSAqLwogIGRlc2M6IHN0cmluZzsKfQoKLyoqIOiHquWumuS5ieauteiQveW9ouaAgSAqLwpleHBvcnQgdHlwZSBDdXN0b21TaGFwZSA9ICd0ZXh0JyB8ICdsaXN0JzsKCi8qKiDmrrXokL3phY3nva7vvJrnlKjmiLflj6/nvJbovpHmoIfpopjjgIHosIPmlbTpobrluo/jgIHliIfmjaLlj6/op4HmgKcgKi8KZXhwb3J0IGludGVyZmFjZSBTZWN0aW9uQ29uZmlnIHsKICAvKiog5ZSv5LiAIGlk77yMY3VzdG9tIOauteiQveeUqCByYW5kb20gKi8KICBpZDogc3RyaW5nOwogIC8qKiDmrrXokL3nsbvlnovvvIjlhrPlrprmlbDmja7mnaXmupDvvIkgKi8KICBraW5kOiBTZWN0aW9uS2luZDsKICAvKiog55So5oi35Y+v6KeB55qE5qCH6aKY77yI5Y+v6YeN5ZG95ZCN77yJICovCiAgdGl0bGU6IHN0cmluZzsKICAvKiog5piv5ZCm5Zyo6aKE6KeI5Lit5pi+56S677yI5omL5Yqo5byA5YWz77yJICovCiAgZW5hYmxlZDogYm9vbGVhbjsKICAvKiog5o6S5bqP5p2D6YeN77ya5YC86LaK5bCP6LaK6Z2g5YmNICovCiAgb3JkZXI6IG51bWJlcjsKICAvKiogY3VzdG9tIOauteaMh+WQkeeahOaVsOaNriBpZO+8iFNlY3Rpb25Db25maWcuaWQgPT09IEN1c3RvbVNlY3Rpb24uaWTvvIkgKi8KICBkYXRhSWQ/OiBzdHJpbmc7CiAgLyoqIGN1c3RvbSDmrrXnmoTlvaLmgIHvvJp0ZXh0IOWNleautSAvIGxpc3Qg5aSa5p2h55uuICovCiAgc2hhcGU/OiBDdXN0b21TaGFwZTsKfQoKLyoqIOiHquWumuS5ieauteiQveeahOe6r+aWh+acrOWGheWuue+8iOWkmuadoeebriA9IOWkmuihjO+8iSAqLwpleHBvcnQgaW50ZXJmYWNlIEN1c3RvbVNlY3Rpb24gewogIGlkOiBzdHJpbmc7CiAgLyoqIOW9ouaAgSAqLwogIHNoYXBlOiBDdXN0b21TaGFwZTsKICAvKiog5Y2V5q615paH5pys77yIc2hhcGU9J3RleHQnIOaXtuS9v+eUqO+8iSAqLwogIGNvbnRlbnQ6IHN0cmluZzsKICAvKiog5aSa5p2h55uu77yIc2hhcGU9J2xpc3QnIOaXtuS9v+eUqO+8iSAqLwogIGl0ZW1zOiBDdXN0b21JdGVtW107Cn0KCi8qKiDlhYPkv6Hmga/vvIjoh6rliqjnu7TmiqTvvIznpoHmraLnlKjmiLfnm7TmjqXnvJbovpHvvIkgKi8KZXhwb3J0IGludGVyZmFjZSBSZXN1bWVNZXRhIHsKICAvKiogSVNPODYwMSDml7bpl7TmiLMgKi8KICB1cGRhdGVkQXQ6IHN0cmluZzsKICAvKiog5pWw5o2uIHNjaGVtYSDniYjmnKzvvIznlKjkuo7mnKrmnaXlrZfmrrXov4Hnp7sgKi8KICB2ZXJzaW9uOiBudW1iZXI7Cn0KCi8qKiDnroDljobmlbDmja7moLnlr7nosaEgKi8KZXhwb3J0IGludGVyZmFjZSBSZXN1bWVEYXRhIHsKICAvKiog5Z+656GA5L+h5oGvICovCiAgbmFtZTogc3RyaW5nOwogIHRpdGxlOiBzdHJpbmc7CiAgZW1haWw6IHN0cmluZzsKICBwaG9uZTogc3RyaW5nOwogIGxvY2F0aW9uOiBzdHJpbmc7CiAgd2Vic2l0ZTogc3RyaW5nOwoKICAvKiog57uT5p6E5YyW57uP5Y6GICovCiAgZWR1Y2F0aW9uOiBFZHVjYXRpb25JdGVtW107CiAgZXhwZXJpZW5jZTogRXhwZXJpZW5jZUl0ZW1bXTsKICBwcm9qZWN0czogUHJvamVjdEl0ZW1bXTsKCiAgLyoqIOe6r+aWh+acrOWtl+autSAqLwogIHNraWxsczogc3RyaW5nOwogIGF3YXJkczogc3RyaW5nOwogIGFib3V0OiBzdHJpbmc7CgogIC8qKiDoh6rlrprkuYnmrrXokL0gKi8KICBjdXN0b21TZWN0aW9uczogQ3VzdG9tU2VjdGlvbltdOwoKICAvKiog5q616JC96YWN572u77ya5Yaz5a6a5riy5p+T6aG65bqP44CB5qCH6aKY44CB5Y+v6KeB5oCnICovCiAgc2VjdGlvbnM6IFNlY3Rpb25Db25maWdbXTsKCiAgLyoqIFVJIOWBj+WlvSAqLwogIHRlbXBsYXRlOiBUZW1wbGF0ZUlkOwoKICAvKiog5YWD5L+h5oGvICovCiAgbWV0YTogUmVzdW1lTWV0YTsKfQoKLyoqIOWtl+autei3r+W+hO+8mueUqOS6juS6i+S7tuWumuS9jeS4juihqOWNlee7keWumiAqLwpleHBvcnQgdHlwZSBGaWVsZFBhdGggPQogIHwgJ25hbWUnIHwgJ3RpdGxlJyB8ICdlbWFpbCcgfCAncGhvbmUnIHwgJ2xvY2F0aW9uJyB8ICd3ZWJzaXRlJwogIHwgJ3NraWxscycgfCAnYXdhcmRzJyB8ICdhYm91dCc7CgovKiog5Y+v6KKrIHNldEZpZWxkIOiuvue9rueahOaJgOacieaVsOaNruWtl+aute+8iOWQqyBVSSDlgY/lpb0gdGVtcGxhdGXvvIkgKi8KZXhwb3J0IHR5cGUgRGF0YVBhdGggPSBGaWVsZFBhdGggfCAndGVtcGxhdGUnOwoKLyoqIOaVsOe7hOWtl+autei3r+W+hO+8mueUqOS6juaWsOWini/liKDpmaTmnaHnm64gKi8KZXhwb3J0IHR5cGUgQXJyYXlGaWVsZFBhdGggPSAnZWR1Y2F0aW9uJyB8ICdleHBlcmllbmNlJyB8ICdwcm9qZWN0cyc7CgovKiog5q616JC95YaF572u57G75Z6L55qE6buY6K6k5qCH6aKY77yI55So5L2c5Yid5aeL5YC85LiO6YeN5ZG95ZCN5o+Q56S677yJICovCmV4cG9ydCBjb25zdCBERUZBVUxUX1NFQ1RJT05fVElUTEU6IFJlY29yZDxFeGNsdWRlPFNlY3Rpb25LaW5kLCAnY3VzdG9tJz4sIHN0cmluZz4gPSB7CiAgZWR1Y2F0aW9uOiAn5pWZ6IKy57uP5Y6GJywKICBleHBlcmllbmNlOiAn5a6e5LmgIC8g5bel5L2c57uP5Y6GJywKICBwcm9qZWN0czogJ+mhueebrue7j+WOhicsCiAgc2tpbGxzOiAn5oqA6IO9JywKICBhd2FyZHM6ICflpZbpobknLAogIGFib3V0OiAn6Ieq5oiR6K+E5Lu3Jwp9OwoKLyoqCiAqIOaWsOWinuauteiQveaXtueahOmihOiuvu+8mueUqOaIt+S4gOmUrumAieaLqe+8jOaXoOmcgOaJi+aJk+auteWQjQogKiAtIHNoYXBlOiDmrrXokL3lvaLmgIHvvIh0ZXh0ID0g5Y2V5q615paH5pysIC8gbGlzdCA9IOWkmuadoeebru+8iQogKiAtIHRpdGxlOiDlu7rorq7nmoTpu5jorqTmoIfpopjvvIjku43lj6/lnKjmt7vliqDlkI7ph43lkb3lkI3vvIkKICogLSBoaW50OiDkuIDlj6Xor53or7TmmI7vvIzlvLnlsYLph4zlsZXnpLoKICogLSBwbGFjZWhvbGRlcjogbGlzdCDlvaLmgIHkuIvmnaHnm67nmoTmoIfpopjkvY3ljaDkvY3mloflrZcKICovCmV4cG9ydCBpbnRlcmZhY2UgU2VjdGlvblByZXNldCB7CiAga2V5OiBzdHJpbmc7CiAgdGl0bGU6IHN0cmluZzsKICBzaGFwZTogQ3VzdG9tU2hhcGU7CiAgaGludDogc3RyaW5nOwogIC8qKiBsaXN0IOW9ouaAge+8muadoeebruagh+mimOWNoOS9jSAqLwogIGl0ZW1UaXRsZVBIPzogc3RyaW5nOwogIC8qKiBsaXN0IOW9ouaAge+8muadoeebruaPj+i/sOWNoOS9jSAqLwogIGl0ZW1EZXNjUEg/OiBzdHJpbmc7CiAgLyoqIHRleHQg5b2i5oCB77ya5paH5pys5Y2g5L2NICovCiAgdGV4dFBIPzogc3RyaW5nOwp9CgpleHBvcnQgY29uc3QgU0VDVElPTl9QUkVTRVRTOiBTZWN0aW9uUHJlc2V0W10gPSBbCiAgeyBrZXk6ICdwdWJsaWNhdGlvbnMnLCB0aXRsZTogJ+WHuueJiOeJqSAvIOiuuuaWhycsIHNoYXBlOiAnbGlzdCcsIGhpbnQ6ICfnlKjkuo7lrabmnK/orrrmlofjgIHmioDmnK/ljZrlrqLjgIHmvJTorrLnrYknLCBpdGVtVGl0bGVQSDogJ+agh+mimCcsIGl0ZW1EZXNjUEg6ICfkvZzogIUgLyDmnJ/liIogLyDml7bpl7QnIH0sCiAgeyBrZXk6ICdjZXJ0aWZpY2F0ZXMnLCB0aXRsZTogJ+ivgeS5piAvIOaJp+eFpycsIHNoYXBlOiAnbGlzdCcsIGhpbnQ6ICfogYzkuJror4HkuabjgIHku47kuJrotYTmoLzjgIHor63oqIDmiJDnu6nnrYknLCBpdGVtVGl0bGVQSDogJ+ivgeS5puWQjeensCcsIGl0ZW1EZXNjUEg6ICfpooHlj5HmnLrmnoQgLyDojrflvpfml7bpl7QnIH0sCiAgeyBrZXk6ICdsYW5ndWFnZXMnLCB0aXRsZTogJ+ivreiogOiDveWKmycsIHNoYXBlOiAnbGlzdCcsIGhpbnQ6ICflpoLvvJroi7Hor60gQ0VULTbjgIHpm4XmgJ0gNy4wJywgaXRlbVRpdGxlUEg6ICfor63oqIAnLCBpdGVtRGVzY1BIOiAn562J57qnIC8g5YiG5pWwJyB9LAogIHsga2V5OiAndm9sdW50ZWVyJywgdGl0bGU6ICflv5fmhL/ogIXnu4/ljoYnLCBzaGFwZTogJ2xpc3QnLCBoaW50OiAn5YWs55uKIC8g56S+5Yy6IC8g5a2m55Sf57uE57uH562JJywgaXRlbVRpdGxlUEg6ICfnu4Tnu4cgLyDmtLvliqgnLCBpdGVtRGVzY1BIOiAn6KeS6ImyIC8g5pe26Ze0IC8g566A6L+wJyB9LAogIHsga2V5OiAndHJhaW5pbmcnLCB0aXRsZTogJ+WfueiurSAvIOivvueoiycsIHNoYXBlOiAnbGlzdCcsIGhpbnQ6ICfov5vkv67or77nqIvjgIHorq3nu4PokKXjgIHorqTor4Hln7norq0nLCBpdGVtVGl0bGVQSDogJ+ivvueoi+WQjScsIGl0ZW1EZXNjUEg6ICfmnLrmnoQgLyDml7bpl7QnIH0sCiAgeyBrZXk6ICdpbnRlcmVzdHMnLCB0aXRsZTogJ+WFtOi2o+eIseWlvScsIHNoYXBlOiAndGV4dCcsIGhpbnQ6ICfkuIDmrrXor53ku4vnu43kuKrkurrlhbTotqPkuI7nibnotKgnLCB0ZXh0UEg6ICflpoLvvJrlvIDmupDotKHnjK7jgIHplb/ot5HjgIHpkqLnkLQgOCDnuqcnIH0sCiAgeyBrZXk6ICdyZWZzJywgdGl0bGU6ICfmjqjojZDkuronLCBzaGFwZTogJ2xpc3QnLCBoaW50OiAn5YiX5Ye65Y+v6IGU57O755qE5o6o6I2Q5Lq6JywgaXRlbVRpdGxlUEg6ICflp5PlkI0gLyDogYzkvY0nLCBpdGVtRGVzY1BIOiAn6IGU57O75pa55byPIC8g5YWz57O7JyB9LAogIHsga2V5OiAnbGlua3MnLCB0aXRsZTogJ+mTvuaOpSAvIOS9nOWTgembhicsIHNoYXBlOiAnbGlzdCcsIGhpbnQ6ICfkuKrkurrkuLvpobXjgIHljZrlrqLjgIFHaXRIdWLjgIFEcmliYmJsZSDnrYknLCBpdGVtVGl0bGVQSDogJ+ermeeCueWQjScsIGl0ZW1EZXNjUEg6ICdVUkwnIH0KXTsKCi8qKiDliKTmlq3mrrXokL3mmK/lkKbmnInlj6/mmL7npLrlhoXlrrnvvIjnlKjkuo7pooTop4joh6rliqjpmpDol4/nqbrmrrXvvIkgKi8KZXhwb3J0IGZ1bmN0aW9uIGlzU2VjdGlvbkVtcHR5KHNlYzogU2VjdGlvbkNvbmZpZywgZDogUmVzdW1lRGF0YSk6IGJvb2xlYW4gewogIHN3aXRjaCAoc2VjLmtpbmQpIHsKICAgIGNhc2UgJ2VkdWNhdGlvbic6CiAgICAgIHJldHVybiBkLmVkdWNhdGlvbi5ldmVyeSgoZSkgPT4gIWUuc2Nob29sICYmICFlLmRlZ3JlZSAmJiAhZS5yYW5nZSk7CiAgICBjYXNlICdleHBlcmllbmNlJzoKICAgICAgcmV0dXJuIGQuZXhwZXJpZW5jZS5ldmVyeSgoZSkgPT4gIWUuY29tcGFueSAmJiAhZS5yb2xlICYmICFlLnJhbmdlICYmICFlLmRlc2MudHJpbSgpKTsKICAgIGNhc2UgJ3Byb2plY3RzJzoKICAgICAgcmV0dXJuIGQucHJvamVjdHMuZXZlcnkoKHApID0+ICFwLm5hbWUgJiYgIXAudGVjaCAmJiAhcC5kZXNjLnRyaW0oKSk7CiAgICBjYXNlICdza2lsbHMnOgogICAgICByZXR1cm4gIWQuc2tpbGxzLnRyaW0oKTsKICAgIGNhc2UgJ2F3YXJkcyc6CiAgICAgIHJldHVybiAhZC5hd2FyZHMudHJpbSgpOwogICAgY2FzZSAnYWJvdXQnOgogICAgICByZXR1cm4gIWQuYWJvdXQudHJpbSgpOwogICAgY2FzZSAnY3VzdG9tJzogewogICAgICBjb25zdCBjcyA9IGQuY3VzdG9tU2VjdGlvbnMuZmluZCgoYykgPT4gYy5pZCA9PT0gc2VjLmRhdGFJZCk7CiAgICAgIGlmICghY3MpIHJldHVybiB0cnVlOwogICAgICBpZiAoY3Muc2hhcGUgPT09ICd0ZXh0JykgcmV0dXJuICFjcy5jb250ZW50LnRyaW0oKTsKICAgICAgcmV0dXJuIGNzLml0ZW1zLmV2ZXJ5KChpdCkgPT4gIWl0LnRpdGxlLnRyaW0oKSAmJiAhaXQuZGVzYy50cmltKCkpOwogICAgfQogIH0KfQoKLyoqIOagoemqjOmUmeivryAqLwpleHBvcnQgaW50ZXJmYWNlIFZhbGlkYXRpb25FcnJvciB7CiAgZmllbGQ6IEZpZWxkUGF0aCB8IHsgcGF0aDogQXJyYXlGaWVsZFBhdGg7IGtleTogc3RyaW5nIH07CiAgbWVzc2FnZTogc3RyaW5nOwp9CgovKiog5qCh6aqM57uT5p6cICovCmV4cG9ydCBpbnRlcmZhY2UgVmFsaWRhdGlvblJlc3VsdCB7CiAgdmFsaWQ6IGJvb2xlYW47CiAgZXJyb3JzOiBWYWxpZGF0aW9uRXJyb3JbXTsKfQoKLyoqIOWvvOWHuuagvOW8jyAqLwpleHBvcnQgdHlwZSBFeHBvcnRGb3JtYXQgPSAncGRmJyB8ICdkb2N4JyB8ICdtZCcgfCAncG5nJzsK
+/**
+ * 简历数据模型类型定义
+ * 单一数据源：所有 UI 状态都派生自 ResumeData
+ */
+
+/** 教育经历单条 */
+export interface EducationItem {
+  school: string;
+  degree: string;
+  range: string;
+}
+
+/** 实习/工作经历单条 */
+export interface ExperienceItem {
+  company: string;
+  role: string;
+  range: string;
+  desc: string;
+}
+
+/** 项目经历单条 */
+export interface ProjectItem {
+  name: string;
+  tech: string;
+  desc: string;
+}
+
+/** 模板标识 */
+export type TemplateId = 'minimal' | 'sidebar' | 'compact';
+
+/** 段落类型 */
+export type SectionKind =
+  | 'education'    // 教育经历（数组）
+  | 'experience'   // 实习/工作经历（数组）
+  | 'projects'     // 项目经历（数组）
+  | 'skills'       // 技能（文本）
+  | 'awards'       // 奖项（文本）
+  | 'about'        // 自我评价（文本）
+  | 'custom';      // 用户自定义段落（文本 + 多条目）
+
+/** 自定义段落的单条（用于 list 模式） */
+export interface CustomItem {
+  id: string;
+  /** 标题（如"论文标题"、"语言"） */
+  title: string;
+  /** 描述 / 副标题 / 范围等 */
+  desc: string;
+}
+
+/** 自定义段落形态 */
+export type CustomShape = 'text' | 'list';
+
+/** 段落配置：用户可编辑标题、调整顺序、切换可见性 */
+export interface SectionConfig {
+  /** 唯一 id，custom 段落用 random */
+  id: string;
+  /** 段落类型（决定数据来源） */
+  kind: SectionKind;
+  /** 用户可见的标题（可重命名） */
+  title: string;
+  /** 是否在预览中显示（手动开关） */
+  enabled: boolean;
+  /** 排序权重：值越小越靠前 */
+  order: number;
+  /** custom 段指向的数据 id（SectionConfig.id === CustomSection.id） */
+  dataId?: string;
+  /** custom 段的形态：text 单段 / list 多条目 */
+  shape?: CustomShape;
+}
+
+/** 自定义段落的纯文本内容（多条目 = 多行） */
+export interface CustomSection {
+  id: string;
+  /** 形态 */
+  shape: CustomShape;
+  /** 单段文本（shape='text' 时使用） */
+  content: string;
+  /** 多条目（shape='list' 时使用） */
+  items: CustomItem[];
+}
+
+/** 元信息（自动维护，禁止用户直接编辑） */
+export interface ResumeMeta {
+  /** ISO8601 时间戳 */
+  updatedAt: string;
+  /** 数据 schema 版本，用于未来字段迁移 */
+  version: number;
+}
+
+/**
+ * 基础信息中的自定义字段（用户自由添加：年龄 / 工作年限 / 期望薪资 / 状态 …）
+ * - 独立于 6 个内置字段（name/title/email/phone/location/website）
+ * - label 与 value 都是 string
+ * - id 内部用于不可变更新
+ */
+export interface BasicField {
+  id: string;
+  label: string;
+  value: string;
+}
+
+/** 简历数据根对象 */
+export interface ResumeData {
+  /** 基础信息 */
+  name: string;
+  title: string;
+  email: string;
+  phone: string;
+  location: string;
+  website: string;
+
+  /** 结构化经历 */
+  education: EducationItem[];
+  experience: ExperienceItem[];
+  projects: ProjectItem[];
+
+  /** 纯文本字段 */
+  skills: string;
+  awards: string;
+  about: string;
+
+  /** 自定义段落 */
+  customSections: CustomSection[];
+
+  /** 自定义基础信息字段（年龄 / 工作年限 / 状态等用户自由添加的项） */
+  customBasics: BasicField[];
+
+  /** 段落配置：决定渲染顺序、标题、可见性 */
+  sections: SectionConfig[];
+
+  /** UI 偏好 */
+  template: TemplateId;
+
+  /** 元信息 */
+  meta: ResumeMeta;
+}
+
+/** 字段路径：用于事件定位与表单绑定 */
+export type FieldPath =
+  | 'name' | 'title' | 'email' | 'phone' | 'location' | 'website'
+  | 'skills' | 'awards' | 'about';
+
+/** 可被 setField 设置的所有数据字段（含 UI 偏好 template） */
+export type DataPath = FieldPath | 'template';
+
+/** 数组字段路径：用于新增/删除条目 */
+export type ArrayFieldPath = 'education' | 'experience' | 'projects';
+
+/** 段落内置类型的默认标题（用作初始值与重命名提示） */
+export const DEFAULT_SECTION_TITLE: Record<Exclude<SectionKind, 'custom'>, string> = {
+  education: '教育经历',
+  experience: '实习 / 工作经历',
+  projects: '项目经历',
+  skills: '技能',
+  awards: '奖项',
+  about: '自我评价'
+};
+
+/**
+ * 新增段落时的预设：用户一键选择，无需手打段名
+ * - shape: 段落形态（text = 单段文本 / list = 多条目）
+ * - title: 建议的默认标题（仍可在添加后重命名）
+ * - hint: 一句话说明，弹层里展示
+ * - placeholder: list 形态下条目的标题位占位文字
+ */
+export interface SectionPreset {
+  key: string;
+  title: string;
+  shape: CustomShape;
+  hint: string;
+  /** list 形态：条目标题占位 */
+  itemTitlePH?: string;
+  /** list 形态：条目描述占位 */
+  itemDescPH?: string;
+  /** text 形态：文本占位 */
+  textPH?: string;
+}
+
+export const SECTION_PRESETS: SectionPreset[] = [
+  { key: 'publications', title: '出版物 / 论文', shape: 'list', hint: '用于学术论文、技术博客、演讲等', itemTitlePH: '标题', itemDescPH: '作者 / 期刊 / 时间' },
+  { key: 'certificates', title: '证书 / 执照', shape: 'list', hint: '职业证书、从业资格、语言成绩等', itemTitlePH: '证书名称', itemDescPH: '颁发机构 / 获得时间' },
+  { key: 'languages', title: '语言能力', shape: 'list', hint: '如：英语 CET-6、雅思 7.0', itemTitlePH: '语言', itemDescPH: '等级 / 分数' },
+  { key: 'volunteer', title: '志愿者经历', shape: 'list', hint: '公益 / 社区 / 学生组织等', itemTitlePH: '组织 / 活动', itemDescPH: '角色 / 时间 / 简述' },
+  { key: 'training', title: '培训 / 课程', shape: 'list', hint: '进修课程、训练营、认证培训', itemTitlePH: '课程名', itemDescPH: '机构 / 时间' },
+  { key: 'interests', title: '兴趣爱好', shape: 'text', hint: '一段话介绍个人兴趣与特质', textPH: '如：开源贡献、长跑、钢琴 8 级' },
+  { key: 'refs', title: '推荐人', shape: 'list', hint: '列出可联系的推荐人', itemTitlePH: '姓名 / 职位', itemDescPH: '联系方式 / 关系' },
+  { key: 'links', title: '链接 / 作品集', shape: 'list', hint: '个人主页、博客、GitHub、Dribbble 等', itemTitlePH: '站点名', itemDescPH: 'URL' }
+];
+
+/** 判断段落是否有可显示内容（用于预览自动隐藏空段） */
+export function isSectionEmpty(sec: SectionConfig, d: ResumeData): boolean {
+  switch (sec.kind) {
+    case 'education':
+      return d.education.every((e) => !e.school && !e.degree && !e.range);
+    case 'experience':
+      return d.experience.every((e) => !e.company && !e.role && !e.range && !e.desc.trim());
+    case 'projects':
+      return d.projects.every((p) => !p.name && !p.tech && !p.desc.trim());
+    case 'skills':
+      return !d.skills.trim();
+    case 'awards':
+      return !d.awards.trim();
+    case 'about':
+      return !d.about.trim();
+    case 'custom': {
+      const cs = d.customSections.find((c) => c.id === sec.dataId);
+      if (!cs) return true;
+      if (cs.shape === 'text') return !cs.content.trim();
+      return cs.items.every((it) => !it.title.trim() && !it.desc.trim());
+    }
+  }
+}
+
+/** 校验错误 */
+export interface ValidationError {
+  field: FieldPath | { path: ArrayFieldPath; key: string };
+  message: string;
+}
+
+/** 校验结果 */
+export interface ValidationResult {
+  valid: boolean;
+  errors: ValidationError[];
+}
+
+/** 导出格式 */
+export type ExportFormat = 'pdf' | 'docx' | 'md' | 'png';
